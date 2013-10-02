@@ -3,8 +3,14 @@ CS183_Sketch2Web
 
 Project for CS183( Computer Vision )
 
-You may download OpenCV 2.4.6 from here: http://opencv.org/downloads.html
+Please install Python 2.7.5 first. After installation, open your terminal, type which python. my machine returns:
 
-And follow the instructions to install OpenCV.
+ #"/Library/Frameworks/Python.framework/Versions/2.7/bin/python"
+ 
+If your path is different, you may need to reconfigure your XCode.
+
+OpenCV for Mac is already in the project folder. So you don't need to download it. However, you may still need to set up OpenCV in your own machine.
 
 Here is some useful tutorials about OpenCV using Python language:  https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html
+
+I created a project using XCode for all of us, so we can code under XCode.
