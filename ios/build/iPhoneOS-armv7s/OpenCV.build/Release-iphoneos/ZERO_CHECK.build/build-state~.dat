@@ -1,28 +1,0 @@
-TZERO_CHECK
-v5
-r1
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-410F83C8574347F7AB1D0B05.sh
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-410F83C8574347F7AB1D0B05.sh
-c00000000524CB83700000000000000EF
-t1380759607
-s239
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc9ff20b7effcb741^e0b923b7effcb741^---0#1#0#--18"Check dependencies36"31C1A718-8CD6-4931-AAB5-9A5261EE0996-
-
-CPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-410F83C8574347F7AB1D0B05.sh
-s402452408.371443
-e402452408.489864
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-410F83C8574347F7AB1D0B05.sh
-oecho ""
-o
-omake -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.make
-omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'a56a5fb8effcb741^be667db8effcb741^-176"echo ""make -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-402452408#0#8#-0#-----2@112"make -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.make-402452408#9#112#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-402452408#121#55#-0#-----0#0#0#--435"PhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-410F83C8574347F7AB1D0B05.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-410F83C8574347F7AB1D0B05.sh36"D58426B8-A7EF-4F61-8D15-1EC3690D3BF6-
-

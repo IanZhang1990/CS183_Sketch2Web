@@ -1,1119 +1,0 @@
-Topencv_calib3d
-v5
-r1
-cCheck dependencies
-cSymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-1A6F6FD6993242A19DBD9DA7.sh
-cStripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-cSetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-cSetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
-c00000000517588920000000000000110
-t1366657170
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/4.2/include/stdarg.h
-c00000000513E22700000000000000810
-t1363026544
-s2064
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/cvconfig.h
-c00000000524CB7930000000000001606
-t1380759443
-s5638
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a
-t1380759753
-s644592
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o
-t1380759513
-s47256
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o
-t1380759516
-s205320
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o
-t1380759512
-s7504
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o
-t1380759515
-s99784
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o
-t1380759512
-s16244
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o
-t1380759513
-s53880
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o
-t1380759513
-s25916
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList
-c00000000524CB7D50000000000000ADC
-t1380759509
-s2780
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o
-t1380759514
-s11204
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o
-t1380759513
-s2184
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o
-t1380759514
-s5100
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o
-t1380759515
-s424
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o
-t1380759516
-s16348
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o
-t1380759516
-s39392
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o
-t1380759516
-s29448
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o
-t1380759516
-s20704
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o
-t1380759516
-s41420
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-1A6F6FD6993242A19DBD9DA7.sh
-c00000000524CB8C9000000000000010B
-t1380759753
-s267
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-D2E44AC71154456A9F31FE69.sh
-c00000000524CB7D5000000000000010B
-t1380759509
-s267
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-t1380759565
-s626064
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/opencv2/opencv_modules.hpp
-c00000000524CB7930000000000000256
-t1380759443
-s598
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
-c0000000051DD4A2C0000000000009303
-t1373456940
-s37635
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/_modelest.h
-c0000000051DD4A2C0000000000000E19
-t1373456940
-s3609
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp
-c0000000051DD4A2C0000000000010BBE
-t1373456940
-s68542
-i"precomp.hpp"
-i"circlesgrid.hpp"
-i<stdarg.h>
-i"opencv2/opencv_modules.hpp"
-i"opencv2/highgui/highgui.hpp"
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp
-c0000000051DD4A2C0000000000020E8A
-t1373456940
-s134794
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp
-c0000000051DD4A2C0000000000001BA7
-t1373456940
-s7079
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp
-c0000000051DD4A2C000000000000BC4D
-t1373456940
-s48205
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.hpp
-c0000000051DD4A2C000000000000246C
-t1373456940
-s9324
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp
-c0000000051DD4A2C0000000000004045
-t1373456940
-s16453
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.h
-c0000000051DD4A2C0000000000000A81
-t1373456940
-s2689
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp
-c0000000051DD4A2C00000000000097CE
-t1373456940
-s38862
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cpp
-c0000000051DD4A2C0000000000003945
-t1373456940
-s14661
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cpp
-c0000000051DD4A2C0000000000003710
-t1373456940
-s14096
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.h
-c0000000051DD4A2C0000000000000846
-t1373456940
-s2118
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp
-c0000000051DD4A2C0000000000000F20
-t1373456940
-s3872
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.h
-c0000000051DD4A2C000000000000018C
-t1373456940
-s396
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp
-c0000000051DD4A2C00000000000030DF
-t1373456940
-s12511
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp
-c0000000051DD4A2C0000000000000852
-t1373456940
-s2130
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.hpp
-c0000000051DD4A2C0000000000000A39
-t1373456940
-s2617
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cpp
-c0000000051DD4A2C00000000000030F8
-t1373456940
-s12536
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp
-c0000000051DD4A2C0000000000003618
-t1373456940
-s13848
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cpp
-c0000000051DD4A2C00000000000091FC
-t1373456940
-s37372
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp
-c0000000051DD4A2C000000000000B386
-t1373456940
-s45958
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp
-c0000000051DD4A2C0000000000004906
-t1373456940
-s18694
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/core.hpp
-c0000000051DD4A2C000000000002D73C
-t1373456940
-s186172
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/core_c.h
-c0000000051DD4A2C0000000000013298
-t1373456940
-s78488
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/eigen.hpp
-c0000000051DD4A2C00000000000024F9
-t1373456940
-s9465
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/internal.hpp
-c0000000051DD4A2C00000000000087A4
-t1373456940
-s34724
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/mat.hpp
-c0000000051DD4A2C0000000000013A5A
-t1373456940
-s80474
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/operations.hpp
-c0000000051DD4A2C000000000001F855
-t1373456940
-s129109
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/types_c.h
-c0000000051DD4A2C000000000000E041
-t1373456940
-s57409
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/version.hpp
-c0000000051DD4A2C0000000000000B70
-t1373456940
-s2928
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include/opencv2/features2d/features2d.hpp
-c0000000051DD4A2C000000000000F914
-t1373456940
-s63764
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include/opencv2/flann/config.h
-c0000000051DD4A2C00000000000006FD
-t1373456940
-s1789
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include/opencv2/flann/defines.h
-c0000000051DD4A2C000000000000124B
-t1373456940
-s4683
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include/opencv2/flann/miniflann.hpp
-c0000000051DD4A2C0000000000001785
-t1373456940
-s6021
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/highgui.hpp
-c0000000051DD4A2C00000000000023CA
-t1373456940
-s9162
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
-c0000000051DD4A2C000000000000DA60
-t1373456940
-s55904
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
-c0000000051DD4A2C000000000000767F
-t1373456940
-s30335
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include/opencv2/imgproc/types_c.h
-c0000000051DD4A2C0000000000004038
-t1373456940
-s16440
-
-N/usr/local/include/eigen3/Eigen/Core
-c00000000516D00000000000000002FC5
-t1366097920
-s12229
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h
-c00000000516D00000000000000001D5E
-t1366097920
-s7518
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h
-c00000000516D000000000000000013BC
-t1366097920
-s5052
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h
-c00000000516D00000000000000004B12
-t1366097920
-s19218
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h
-c00000000516D00000000000000000792
-t1366097920
-s1938
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h
-c00000000516D000000000000000019CB
-t1366097920
-s6603
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h
-c00000000516D000000000000000014C8
-t1366097920
-s5320
-
-N/usr/local/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h
-c00000000516D00000000000000000A39
-t1366097920
-s2617
-
-N/usr/local/include/eigen3/Eigen/src/Core/Array.h
-c00000000516D00000000000000002D5D
-t1366097920
-s11613
-
-N/usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h
-c00000000516D00000000000000002131
-t1366097920
-s8497
-
-N/usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h
-c00000000516D00000000000000001EE1
-t1366097920
-s7905
-
-N/usr/local/include/eigen3/Eigen/src/Core/Assign.h
-c00000000516D0000000000000000594B
-t1366097920
-s22859
-
-N/usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h
-c00000000516D000000000000000032F9
-t1366097920
-s13049
-
-N/usr/local/include/eigen3/Eigen/src/Core/Block.h
-c00000000516D00000000000000003759
-t1366097920
-s14169
-
-N/usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h
-c00000000516D00000000000000000DBF
-t1366097920
-s3519
-
-N/usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h
-c00000000516D000000000000000012AB
-t1366097920
-s4779
-
-N/usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
-c00000000516D00000000000000002667
-t1366097920
-s9831
-
-N/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
-c00000000516D0000000000000000722C
-t1366097920
-s29228
-
-N/usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
-c00000000516D00000000000000001261
-t1366097920
-s4705
-
-N/usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
-c00000000516D000000000000000014E0
-t1366097920
-s5344
-
-N/usr/local/include/eigen3/Eigen/src/Core/DenseBase.h
-c00000000516D00000000000000005C6C
-t1366097920
-s23660
-
-N/usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
-c00000000516D00000000000000006BE7
-t1366097920
-s27623
-
-N/usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h
-c00000000516D000000000000000037DF
-t1366097920
-s14303
-
-N/usr/local/include/eigen3/Eigen/src/Core/Diagonal.h
-c00000000516D00000000000000002323
-t1366097920
-s8995
-
-N/usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
-c00000000516D00000000000000002C66
-t1366097920
-s11366
-
-N/usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h
-c00000000516D0000000000000000150B
-t1366097920
-s5387
-
-N/usr/local/include/eigen3/Eigen/src/Core/Dot.h
-c00000000516D000000000000000024AE
-t1366097920
-s9390
-
-N/usr/local/include/eigen3/Eigen/src/Core/EigenBase.h
-c00000000516D0000000000000000161B
-t1366097920
-s5659
-
-N/usr/local/include/eigen3/Eigen/src/Core/Flagged.h
-c00000000516D00000000000000001067
-t1366097920
-s4199
-
-N/usr/local/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
-c00000000516D0000000000000000116C
-t1366097920
-s4460
-
-N/usr/local/include/eigen3/Eigen/src/Core/Functors.h
-c00000000516D00000000000000008F2D
-t1366097920
-s36653
-
-N/usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h
-c00000000516D00000000000000001585
-t1366097920
-s5509
-
-N/usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h
-c00000000516D0000000000000000697D
-t1366097920
-s27005
-
-N/usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h
-c00000000516D00000000000000002C24
-t1366097920
-s11300
-
-N/usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h
-c00000000516D0000000000000000106C
-t1366097920
-s4204
-
-N/usr/local/include/eigen3/Eigen/src/Core/IO.h
-c00000000516D00000000000000001D63
-t1366097920
-s7523
-
-N/usr/local/include/eigen3/Eigen/src/Core/Map.h
-c00000000516D00000000000000001F9B
-t1366097920
-s8091
-
-N/usr/local/include/eigen3/Eigen/src/Core/MapBase.h
-c00000000516D00000000000000001FDC
-t1366097920
-s8156
-
-N/usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h
-c00000000516D0000000000000000605F
-t1366097920
-s24671
-
-N/usr/local/include/eigen3/Eigen/src/Core/Matrix.h
-c00000000516D00000000000000004286
-t1366097920
-s17030
-
-N/usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h
-c00000000516D00000000000000005829
-t1366097920
-s22569
-
-N/usr/local/include/eigen3/Eigen/src/Core/NestByValue.h
-c00000000516D00000000000000000C8B
-t1366097920
-s3211
-
-N/usr/local/include/eigen3/Eigen/src/Core/NoAlias.h
-c00000000516D00000000000000001408
-t1366097920
-s5128
-
-N/usr/local/include/eigen3/Eigen/src/Core/NumTraits.h
-c00000000516D00000000000000001821
-t1366097920
-s6177
-
-N/usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h
-c00000000516D00000000000000005D36
-t1366097920
-s23862
-
-N/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h
-c00000000516D000000000000000083F9
-t1366097920
-s33785
-
-N/usr/local/include/eigen3/Eigen/src/Core/ProductBase.h
-c00000000516D000000000000000028F9
-t1366097920
-s10489
-
-N/usr/local/include/eigen3/Eigen/src/Core/Random.h
-c00000000516D00000000000000001514
-t1366097920
-s5396
-
-N/usr/local/include/eigen3/Eigen/src/Core/Redux.h
-c00000000516D00000000000000003690
-t1366097920
-s13968
-
-N/usr/local/include/eigen3/Eigen/src/Core/Replicate.h
-c00000000516D00000000000000001B37
-t1366097920
-s6967
-
-N/usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h
-c00000000516D00000000000000000C56
-t1366097920
-s3158
-
-N/usr/local/include/eigen3/Eigen/src/Core/Reverse.h
-c00000000516D00000000000000001E73
-t1366097920
-s7795
-
-N/usr/local/include/eigen3/Eigen/src/Core/Select.h
-c00000000516D000000000000000017B9
-t1366097920
-s6073
-
-N/usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h
-c00000000516D00000000000000002CF6
-t1366097920
-s11510
-
-N/usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
-c00000000516D00000000000000001BEB
-t1366097920
-s7147
-
-N/usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h
-c00000000516D000000000000000027F5
-t1366097920
-s10229
-
-N/usr/local/include/eigen3/Eigen/src/Core/StableNorm.h
-c00000000516D000000000000000017B0
-t1366097920
-s6064
-
-N/usr/local/include/eigen3/Eigen/src/Core/Stride.h
-c00000000516D00000000000000000E24
-t1366097920
-s3620
-
-N/usr/local/include/eigen3/Eigen/src/Core/Swap.h
-c00000000516D000000000000000010E6
-t1366097920
-s4326
-
-N/usr/local/include/eigen3/Eigen/src/Core/Transpose.h
-c00000000516D00000000000000003870
-t1366097920
-s14448
-
-N/usr/local/include/eigen3/Eigen/src/Core/Transpositions.h
-c00000000516D00000000000000003BE3
-t1366097920
-s15331
-
-N/usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h
-c00000000516D000000000000000074D2
-t1366097920
-s29906
-
-N/usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h
-c00000000516D000000000000000025A6
-t1366097920
-s9638
-
-N/usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h
-c00000000516D000000000000000060F8
-t1366097920
-s24824
-
-N/usr/local/include/eigen3/Eigen/src/Core/Visitor.h
-c00000000516D00000000000000001AB2
-t1366097920
-s6834
-
-N/usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
-c00000000516D000000000000000006D2
-t1366097920
-s1746
-
-N/usr/local/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
-c00000000516D00000000000000002187
-t1366097920
-s8583
-
-N/usr/local/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
-c00000000516D00000000000000003AB8
-t1366097920
-s15032
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
-c00000000516D0000000000000000482A
-t1366097920
-s18474
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
-c00000000516D0000000000000000AFDC
-t1366097920
-s45020
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
-c00000000516D00000000000000003ED4
-t1366097920
-s16084
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
-c00000000516D0000000000000000287F
-t1366097920
-s10367
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
-c00000000516D00000000000000005683
-t1366097920
-s22147
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h
-c00000000516D00000000000000001029
-t1366097920
-s4137
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
-c00000000516D0000000000000000394C
-t1366097920
-s14668
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
-c00000000516D000000000000000028BA
-t1366097920
-s10426
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
-c00000000516D000000000000000016E7
-t1366097920
-s5863
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
-c00000000516D00000000000000000F6E
-t1366097920
-s3950
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
-c00000000516D00000000000000004298
-t1366097920
-s17048
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
-c00000000516D00000000000000003703
-t1366097920
-s14083
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
-c00000000516D00000000000000003387
-t1366097920
-s13191
-
-N/usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
-c00000000516D00000000000000001504
-t1366097920
-s5380
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h
-c00000000516D000000000000000027AD
-t1366097920
-s10157
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h
-c00000000516D0000000000000000418E
-t1366097920
-s16782
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
-c00000000516D00000000000000000829
-t1366097920
-s2089
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
-c00000000516D00000000000000003544
-t1366097920
-s13636
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h
-c00000000516D00000000000000000E95
-t1366097920
-s3733
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/Macros.h
-c00000000516D00000000000000004249
-t1366097920
-s16969
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/Memory.h
-c00000000516D00000000000000008FB2
-t1366097920
-s36786
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/Meta.h
-c00000000516D000000000000000025F6
-t1366097920
-s9718
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
-c00000000516D00000000000000000145
-t1366097920
-s325
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h
-c00000000516D000000000000000023E6
-t1366097920
-s9190
-
-N/usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h
-c00000000516D000000000000000040AA
-t1366097920
-s16554
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9f3dc34bf0fcb741^0b5fc34bf0fcb741^---0#1#0#--18"Check dependencies36"B38A69B3-1128-47EE-B64A-0DAD311BAB4E-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452309.406189
-e402452313.369719
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp6c216855effcb741^1ea55e59effcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp0000000000000000^4277"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibinit.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o36"5AD01E55-F510-4636-B1B3-F6CE183169EE-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452309.406907
-e402452316.150624
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cppd0446855effcb741^8998265ceffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp0000000000000000^4289"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/calibration.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o36"D746A010-94AD-41D9-A601-79EC8CDE048B-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452309.887814
-e402452312.006016
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp5166e355effcb741^ab950158effcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp0000000000000000^4313"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/checkchessboard.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o36"99D67315-A5AA-419A-B6E3-A420178BA93B-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452310.120422
-e402452315.971134
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp30f21e56effcb741^309bf85beffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp0000000000000000^4289"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/circlesgrid.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o36"A85CEF58-4688-4C98-9BE0-71CF8A637873-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452310.132964
-e402452312.628494
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp0f292256effcb741^efe3a058effcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp0000000000000000^4247"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/epnp.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o36"B8C6E76C-292F-42E3-968D-D024D45ACF29-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452310.999671
-e402452313.994632
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp1c090057effcb741^7b9ffe59effcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp0000000000000000^4259"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/fundam.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o36"B3DA4969-0621-4BB9-8A79-4ECF529C893B-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452311.243868
-e402452313.909942
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cppbd8c3e57effcb741^91f1e859effcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cpp0000000000000000^4271"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/modelest.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o36"56BE7383-9757-4599-BDAB-1451615407CD-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452311.905502
-e402452314.132272
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cppdeffe757effcb741^a3e8215aeffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cpp0000000000000000^4241"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/p3p.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o36"CEA61753-5A12-400D-89E4-AD37C8018E1B-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452312.025632
-e402452313.973855
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp9fae0658effcb741^a54df959effcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp0000000000000000^4307"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/polynom_solver.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o36"690D6C89-CC77-431E-B450-42A4DFBF1DDA-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452312.630983
-e402452314.776007
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp5da7a158effcb741^03b3c65aeffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp0000000000000000^4253"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/posit.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o36"42AF06F2-B29B-4BD8-B9B9-729EFF4B41EF-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452313.371064
-e402452315.310411
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp151f5f59effcb741^3e764f5beffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp0000000000000000^4265"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/precomp.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o36"5A8944DB-963E-4EA5-8997-62A8F57CFFAE-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452313.911222
-e402452316.136585
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cppcc63e959effcb741^40f6225ceffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cpp0000000000000000^4283"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/quadsubpix.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o36"5912D938-72C8-4C22-978B-3B21E6F40D5A-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452313.975150
-e402452316.490292
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp09c2f959effcb741^7a8d7d5ceffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp0000000000000000^4271"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/solvepnp.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o36"B58292AE-E0B3-4D99-8B15-2EDAE7755F49-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452313.995913
-e402452316.376799
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cppc212ff59effcb741^c974605ceffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cpp0000000000000000^4271"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereobm.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o36"329AEC21-DF74-4C5A-9D71-7C4F12CD0242-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452314.133537
-e402452316.594708
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp8b4e225aeffcb741^643e985ceffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp0000000000000000^4283"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/stereosgbm.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o36"68C35FCA-D5E2-4185-8B1F-C3646F2C8457-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s402452314.777273
-e402452316.686941
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp3b1ac75aeffcb741^61e2af5ceffcb741^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp0000000000000000^4289"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -I/usr/local/include/eigen3 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/calib3d/src/triangulate.cpp -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o36"14BBD593-3B9C-4E62-A03F-5CC2948D2EFE-
-
-CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a normal armv7
-s402452553.387982
-e402452553.399639
-r1
-xLibtool
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a normal armv7cb656349f0fcb741^1e506649f0fcb741^-289"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1164"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a normal armv7    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a36"4F261619-D726-41C4-BCC0-43B8A3080966-
-
-CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7
-s402452370.383740
-e402452370.394936
-r1
-xLibtool
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7a94b6292effcb741^eb1a6592effcb741^-289"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1212"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"8E57B733-5926-49C8-AC70-B27DB59DAD71-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-1A6F6FD6993242A19DBD9DA7.sh
-s402452555.804077
-e402452555.847370
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-1A6F6FD6993242A19DBD9DA7.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
-omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
-omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'f12bce4bf0fcb741^a7ecd84bf0fcb741^-910"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452555#0#30#-0#-----2@23"Depend check for xcode-402452555#30#23#-0#-----2@310"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-402452555#53#310#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-402452555#363#68#-0#-----2@30"echo "Depend check for xcode"-402452555#431#30#-0#-----2@23"Depend check for xcode-402452555#461#23#-0#-----2@358"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-402452555#484#358#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-402452555#842#68#-0#-----0#0#0#--483"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-1A6F6FD6993242A19DBD9DA7.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-1A6F6FD6993242A19DBD9DA7.sh36"267CB277-0C12-4809-A85E-AA9478863A59-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-D2E44AC71154456A9F31FE69.sh
-s402452370.402942
-e402452370.442251
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-D2E44AC71154456A9F31FE69.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
-omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
-omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'e6766792effcb741^5d377192effcb741^-910"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452370#0#30#-0#-----2@23"Depend check for xcode-402452370#30#23#-0#-----2@310"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7 -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-402452370#53#310#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-402452370#363#68#-0#-----2@30"echo "Depend check for xcode"-402452370#431#30#-0#-----2@23"Depend check for xcode-402452370#461#23#-0#-----2@358"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-402452370#484#358#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-402452370#842#68#-0#-----0#0#0#--483"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-D2E44AC71154456A9F31FE69.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-D2E44AC71154456A9F31FE69.sh36"68CCCC18-CFE6-4EEB-B382-5227163C1EBD-
-
-CSetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-s402452555.877207
-e402452555.881852
-r1
-xSetMode
-xu+w,go-w,a+rX
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"SetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a6aa1e04bf0fcb741^51c1e14bf0fcb741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^675"SetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"95889747-575C-444B-B5E2-7220AE5D4A65-
-
-CSetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-s402452555.863512
-e402452555.869431
-r1
-xSetOwnerAndGroup
-xIanZhang:staff
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"SetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.aa31fdd4bf0fcb741^1494de4bf0fcb741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^695"SetOwnerAndGroup "IanZhang:staff" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "IanZhang:staff" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"872E8B2D-102D-47F3-A3C7-11BFFF69372B-
-
-CStripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-s402452370.450637
-e402452370.531373
-r1
-xStripping
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a(precomp.o)
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Stripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a3c6b7392effcb741^a7088892effcb741^-263"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^730"Stripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"EA46C74B-42E3-4142-96C9-6245D46B2DF5-
-
-CSymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-s402452555.768424
-e402452555.773286
-r1
-xSymLink
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Process /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a26c8c44bf0fcb741^01f6c54bf0fcb741^---0#0#0#--856"SymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/modules/calib3d/UninstalledProducts/libopencv_calib3d.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7/lib/Release/libopencv_calib3d.a36"D887A886-6654-49BE-9643-0BBE8B5FFB5E-
-

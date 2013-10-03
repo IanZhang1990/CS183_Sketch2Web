@@ -1,28 +1,0 @@
-TALL_BUILD
-v5
-r1
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-9C3A026D02BE46818F9EFF14.sh
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-9C3A026D02BE46818F9EFF14.sh
-c00000000524CB99A00000000000000F8
-t1380759962
-s248
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies22a6b81af1fcb741^47e7b81af1fcb741^---0#1#0#--18"Check dependencies36"5A123FDF-CB56-4C1D-8793-47B76127B62D-
-
-CPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-9C3A026D02BE46818F9EFF14.sh
-s402452762.723819
-e402452762.744119
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-9C3A026D02BE46818F9EFF14.sh
-oecho ""
-o
-oecho Build\ all\ projects
-oBuild all projects
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'f697b91af1fcb741^637ebe1af1fcb741^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-402452762#0#8#-0#-----2@26"echo Build\ all\ projects-402452762#9#26#-0#-----2@19"Build all projects-402452762#35#19#-0#-----0#0#0#--457"PhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-9C3A026D02BE46818F9EFF14.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-9C3A026D02BE46818F9EFF14.sh36"868DC92A-5444-40E0-A075-8ECE5D87855A-
-

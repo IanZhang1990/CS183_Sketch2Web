@@ -1,533 +1,0 @@
-Tzlib
-v5
-r1
-cCheck dependencies
-cSymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7s
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-57959DBB5325442F8CD05446.sh
-cStripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-cSetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-cSetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
-c00000000517588920000000000000110
-t1366657170
-s272
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a
-t1380759608
-s79056
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.o
-t1380759607
-s1460
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.o
-t1380759607
-s1092
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.o
-t1380759607
-s10292
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.o
-t1380759608
-s13612
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.o
-t1380759607
-s640
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.o
-t1380759607
-s3420
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.o
-t1380759607
-s4564
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.o
-t1380759607
-s4476
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.o
-t1380759607
-s7404
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.o
-t1380759607
-s1936
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.o
-t1380759608
-s12304
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.o
-t1380759607
-s2344
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.o
-t1380759607
-s10240
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.o
-t1380759607
-s872
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zlib.LinkFileList
-c00000000524CB8370000000000000977
-t1380759607
-s2423
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.o
-t1380759607
-s1220
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-52E1C7EFE68B41839F20AA4B.sh
-c00000000524CB83700000000000000FF
-t1380759607
-s255
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-57959DBB5325442F8CD05446.sh
-c00000000524CB8D400000000000000FF
-t1380759764
-s255
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-t2
-s0
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/zconf.h
-c00000000524CB82E0000000000003C0C
-t1380759598
-s15372
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c
-c0000000051DD4A2C0000000000001368
-t1373456940
-s4968
-i"zutil.h"
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c
-c0000000051DD4A2C00000000000009D8
-t1373456940
-s2520
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c
-c0000000051DD4A2C0000000000003376
-t1373456940
-s13174
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.h
-c0000000051DD4A2C0000000000007762
-t1373456940
-s30562
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c
-c0000000051DD4A2C00000000000116E0
-t1373456940
-s71392
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.h
-c0000000051DD4A2C00000000000031F3
-t1373456940
-s12787
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.c
-c0000000051DD4A2C00000000000002A6
-t1373456940
-s678
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzguts.h
-c0000000051DD4A2C000000000000178D
-t1373456940
-s6029
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c
-c0000000051DD4A2C0000000000003DD1
-t1373456940
-s15825
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.c
-c0000000051DD4A2C0000000000004856
-t1373456940
-s18518
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c
-c0000000051DD4A2C0000000000003DC9
-t1373456940
-s15817
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c
-c0000000051DD4A2C00000000000058AD
-t1373456940
-s22701
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.c
-c0000000051DD4A2C000000000000347F
-t1373456940
-s13439
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.h
-c0000000051DD4A2C00000000000001AB
-t1373456940
-s427
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffixed.h
-c0000000051DD4A2C00000000000018BC
-t1373456940
-s6332
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c
-c0000000051DD4A2C000000000000CEF6
-t1373456940
-s52982
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.h
-c0000000051DD4A2C00000000000018FF
-t1373456940
-s6399
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c
-c0000000051DD4A2C00000000000032E8
-t1373456940
-s13032
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.h
-c0000000051DD4A2C0000000000000B70
-t1373456940
-s2928
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c
-c0000000051DD4A2C000000000000AC81
-t1373456940
-s44161
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.h
-c0000000051DD4A2C0000000000002118
-t1373456940
-s8472
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c
-c0000000051DD4A2C00000000000007CA
-t1373456940
-s1994
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zlib.h
-c0000000051DD4A2C00000000000152BD
-t1373456940
-s86717
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c
-c0000000051DD4A2C0000000000001CF4
-t1373456940
-s7412
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.h
-c0000000051DD4A2C0000000000001A6D
-t1373456940
-s6765
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies85e96f7bf0fcb741^a71f707bf0fcb741^---0#1#0#--18"Check dependencies36"F76F0BA8-0817-4115-903A-6E600D9980F7-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.137822
-e402452407.249358
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c9f7323b7effcb741^1cb142b7effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.o 3rdparty/zlib/adler32.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/adler32.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/adler32.o36"58CB1BBA-CD61-4603-B2DC-A22A23B45245-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.138691
-e402452407.226017
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c389e23b7effcb741^3a413bb7effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c0000000000000000^3447"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.o 3rdparty/zlib/compress.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/compress.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/compress.o36"9AD0F8FB-26DA-44C6-A513-A2FFC2EF7BA8-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.139271
-e402452407.260639
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c71c723b7effcb741^f1ba42b7effcb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c0000000000000000^3429"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.o 3rdparty/zlib/crc32.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/crc32.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/crc32.o36"257D88CB-ECA7-41B2-A33B-2C6DACE72032-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.139862
-e402452408.073372
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c9fe723b7effcb741^2ec812b8effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.o 3rdparty/zlib/deflate.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/deflate.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/deflate.o36"C3E2C24D-A5B6-49F4-A4B6-229574B3082E-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.139911
-e402452407.247560
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.cd5ea23b7effcb741^306841b7effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.o 3rdparty/zlib/gzclose.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzclose.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzclose.o36"ADBBA343-8165-4008-AB65-D2B516D39056-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.140362
-e402452407.377290
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c420824b7effcb741^f29560b7effcb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c0000000000000000^3429"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.o 3rdparty/zlib/gzlib.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzlib.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzlib.o36"3103C88F-AAE5-4D09-A8B0-9B3A6A9C128F-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.140464
-e402452407.465746
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.ca01524b7effcb741^8a3a77b7effcb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.c0000000000000000^3435"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.o 3rdparty/zlib/gzread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzread.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzread.o36"A8EDEF90-3730-44DC-893B-FB49F0BE904D-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.141003
-e402452407.484768
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c314224b7effcb741^66a47eb7effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.o 3rdparty/zlib/gzwrite.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/gzwrite.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/gzwrite.o36"B3DC7F95-7D3B-42F8-BE21-BD26AFCC48CD-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.251242
-e402452407.642487
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c836d40b7effcb741^3e79a4b7effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.o 3rdparty/zlib/infback.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/infback.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/infback.o36"09565EFC-E02A-496D-AEB0-082247829DE9-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.262986
-e402452407.416239
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.cec6d43b7effcb741^1d8e6ab7effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.o 3rdparty/zlib/inffast.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inffast.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inffast.o36"CCEAA15C-7731-4D2A-AA59-49A21ADA9A2C-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.231670
-e402452408.203338
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c88693bb7effcb741^ab9836b8effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.o 3rdparty/zlib/inflate.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inflate.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inflate.o36"6D1CDF6F-49AC-4D71-946B-20BC3FB626BF-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.254571
-e402452407.396778
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c774841b7effcb741^0c9365b7effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c0000000000000000^3447"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.o 3rdparty/zlib/inftrees.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/inftrees.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/inftrees.o36"2020E972-5CD3-4DB8-9A9A-AA47D2D54B7A-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.378562
-e402452407.864742
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c750361b7effcb741^465fddb7effcb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c0000000000000000^3429"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.o 3rdparty/zlib/trees.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/trees.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/trees.o36"5C01CEE8-ABFF-47E3-8192-D5093B52C6A1-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.398041
-e402452407.444779
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c3b0066b7effcb741^efe671b7effcb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c0000000000000000^3441"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.o 3rdparty/zlib/uncompr.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/uncompr.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/uncompr.o36"80B90A28-F36E-40F5-9461-C419E571C7EC-
-
-CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-s402452407.417529
-e402452407.459882
-r1
-xCompileC
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c
-xnormal
-xarmv7s
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c6dff6ab7effcb741^b2ba75b7effcb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c0000000000000000^3429"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.o 3rdparty/zlib/zutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zutil.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zutil.o36"AA594D3B-C474-4AA5-9626-77EF14AA1E74-
-
-CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a normal armv7s
-s402452408.215597
-e402452408.230431
-r1
-xLibtool
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a
-xnormal
-xarmv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a normal armv7s784637b8effcb741^eab23cb8effcb741^---0#0#0#--1156"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a normal armv7s    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zlib.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a36"99FCDCEF-C133-4032-A071-5D769AD08041-
-
-CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7s
-s402452603.466943
-e402452603.473959
-r1
-xLibtool
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-xnormal
-xarmv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7s249b777bf0fcb741^5857797bf0fcb741^---0#0#0#--1182"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7s    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7s/zlib.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a36"A660EA9B-0398-4822-8F5C-71A0C4BCB25F-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-52E1C7EFE68B41839F20AA4B.sh
-s402452408.404833
-e402452408.468600
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-52E1C7EFE68B41839F20AA4B.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
-omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
-omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'd10268b8effcb741^62f577b8effcb741^-870"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452408#0#30#-0#-----2@23"Depend check for xcode-402452408#30#23#-0#-----2@303"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-402452408#53#303#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-402452408#356#58#-0#-----2@30"echo "Depend check for xcode"-402452408#414#30#-0#-----2@23"Depend check for xcode-402452408#444#23#-0#-----2@345"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-402452408#467#345#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-402452408#812#58#-0#-----0#0#0#--461"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-52E1C7EFE68B41839F20AA4B.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-52E1C7EFE68B41839F20AA4B.sh36"79EA3514-389D-4F19-B7B9-99680BCCED4F-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-57959DBB5325442F8CD05446.sh
-s402452603.483052
-e402452603.532310
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-57959DBB5325442F8CD05446.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
-omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
-omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'ed0b7c7bf0fcb741^e144887bf0fcb741^-870"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452603#0#30#-0#-----2@23"Depend check for xcode-402452603#30#23#-0#-----2@303"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-402452603#53#303#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-402452603#356#58#-0#-----2@30"echo "Depend check for xcode"-402452603#414#30#-0#-----2@23"Depend check for xcode-402452603#444#23#-0#-----2@345"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-402452603#467#345#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-402452603#812#58#-0#-----0#0#0#--461"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-57959DBB5325442F8CD05446.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-57959DBB5325442F8CD05446.sh36"4CBD6651-F57F-454F-801C-42271AB8923C-
-
-CSetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-s402452603.620693
-e402452603.625492
-r1
-xSetMode
-xu+w,go-w,a+rX
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"SetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a51f69e7bf0fcb741^1d20a07bf0fcb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^653"SetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a36"EDE2E6B9-CC30-45E3-885D-FEA8FAF19991-
-
-CSetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-s402452603.607144
-e402452603.612668
-r1
-xSetOwnerAndGroup
-xIanZhang:staff
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"SetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.add7c9b7bf0fcb741^bfd79c7bf0fcb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^673"SetOwnerAndGroup "IanZhang:staff" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "IanZhang:staff" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a36"890974C0-C46E-4D61-B4C0-C28CCFC7AB31-
-
-CStripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-s402452603.539864
-e402452603.599181
-r1
-xStripping
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Stripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a78438a7bf0fcb741^6364997bf0fcb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^708"Stripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a36"4578A0DA-1518-42F0-BC16-4D96C26F0D2B-
-
-CSymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-s402452603.443232
-e402452603.448360
-r1
-xSymLink
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Process /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.ad68f717bf0fcb741^86c7727bf0fcb741^---0#0#0#--834"SymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/UninstalledProducts/libzlib.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/libzlib.a36"566EA553-81B1-47EA-A6CC-866024FA9F32-
-

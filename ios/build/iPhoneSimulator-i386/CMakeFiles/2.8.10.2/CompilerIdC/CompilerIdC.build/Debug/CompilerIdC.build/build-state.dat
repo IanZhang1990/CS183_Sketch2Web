@@ -1,68 +1,0 @@
-TCompilerIdC
-v5
-r1
-cCheck dependencies
-cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
-cPhaseScriptExecution "Run Script" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
-t2
-s0
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
-t2
-s0
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
-c00000000524CB90300000000000000C3
-t1380759811
-s195
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-c00000000524CB903000000000000002A
-t1380759811
-s42
-
-N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
-c00000000524CB9030000000000002F20
-t1380759811
-s12064
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa54a7483f0fcb741^791e7c83f0fcb741^---0#1#0#--18"Check dependencies36"2A435DAE-A226-49CC-B53D-BC0B6FF9BEAB-
-
-CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s402452611.488800
-e402452611.508300
-r1
-xCompileC
-x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c85417d83f0fcb741^e21f8283f0fcb741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2854"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"EDA5F776-3F2D-4DF3-B2F8-925BC37A7A6E-
-
-CLd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
-s402452611.514959
-e402452611.530324
-r1
-xLd
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC2ee68383f0fcb741^fcc28783f0fcb741^---0#0#0#--824"Ld ./CompilerIdC normal i386    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC36"7ED5948B-0D52-4E9A-ACF3-F23ADF1F463E-
-
-CPhaseScriptExecution "Run Script" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-s402452611.538478
-e402452611.554228
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'02288a83f0fcb741^c9e38d83f0fcb741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-402452611#0#47#-0#-----0#0#0#--438"PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"F2C05D8C-1830-492B-8872-8C2E850FFBEB-
-
