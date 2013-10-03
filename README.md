@@ -12,7 +12,7 @@ Please install Python 2.7.5 first. After installation, open your terminal, type 
  
 If your path is different, you may need to reconfigure your XCode.
 
-OpenCV for Mac is already in the project folder. So you don't need to download it. However, you may still need to set up OpenCV in your own machine.
+To install OpenCV, check out: https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows
 
 Here is some useful tutorials about OpenCV using Python language:  https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html
 
