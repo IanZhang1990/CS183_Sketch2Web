@@ -45,6 +45,10 @@
       </PathRunnable>
       <CommandLineArguments>
          <CommandLineArgument
+            argument = "test.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "main.py"
             isEnabled = "YES">
          </CommandLineArgument>
