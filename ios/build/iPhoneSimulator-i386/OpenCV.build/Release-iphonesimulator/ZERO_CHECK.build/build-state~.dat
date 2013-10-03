@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-35C239277BC544F993E9C085.sh
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-35C239277BC544F993E9C085.sh
+c00000000524CB92200000000000000F9
+t1380759842
+s249
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7e35eba2f0fcb741^fe9deda2f0fcb741^---0#1#0#--18"Check dependencies36"0CD70F35-ABBE-48EC-9603-E62D128B549A-
+
+CPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-35C239277BC544F993E9C085.sh
+s402452642.930105
+e402452643.071817
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-35C239277BC544F993E9C085.sh
+oecho ""
+o
+omake -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'1289eea2f0fcb741^d06112a3f0fcb741^-181"echo ""make -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-402452642#0#8#-0#-----2@117"make -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make-402452643#9#117#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-402452643#126#55#-0#-----0#0#0#--459"PhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-35C239277BC544F993E9C085.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-35C239277BC544F993E9C085.sh36"04BEDA10-BE7A-4775-A4E6-7ABFC5B20C04-
+

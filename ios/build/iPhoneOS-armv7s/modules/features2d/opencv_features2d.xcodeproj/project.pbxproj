@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              67304A93BD9A4196AD8BEED0 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = ACF96E6C82FA46ECA92A42C4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            F729C4B021494815959C6C98 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            1DF3D224DF5F4759A7BDEFBA /* PBXTargetDependency */,
+                            8A74FBF9963D4BD9B2226CC8 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              E68AC6156490470C9C9910A3 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 651FDDCC398F43A29041745C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            DA688CABC6BC4B068F731A36 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              682AD280B5314C39A0F841CD /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 613F4CB8E671497B87DB5EDB /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            907947B96336419B8D7A49CA /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            2446C78DA9354E258056A352 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+30CCF6540E83492DA0A94942 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXBuildFile; fileRef = F43189B9361A4299B9835C47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include/opencv2/features2d/features2d.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4BDAB8A07A584BDA837185D8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/bagofwords.cpp */ = {isa = PBXBuildFile; fileRef = 360FBE145979419A89D9876A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/bagofwords.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E01B90CB8C5C4C91B93337F1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/blobdetector.cpp */ = {isa = PBXBuildFile; fileRef = 7109D380ADB34FFE8664B553 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/blobdetector.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+831EC46778944711A8D78305 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brief.cpp */ = {isa = PBXBuildFile; fileRef = EC55E5AE739F401281E82CE2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brief.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CA36C4C797A340049041D689 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brisk.cpp */ = {isa = PBXBuildFile; fileRef = 9B23566E8D854577B3E63D8C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brisk.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6DB27FB54CED485181378031 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/descriptors.cpp */ = {isa = PBXBuildFile; fileRef = C4344650E1154B88A7CFF21F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/descriptors.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C9220EF5258C49B5B3E1F9A9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/detectors.cpp */ = {isa = PBXBuildFile; fileRef = 408F9A31ABE84FC699FAFDCD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/detectors.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9EAA0294DF9B4A3AA0E81C1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/draw.cpp */ = {isa = PBXBuildFile; fileRef = FDE725BF01484A6585E1E885 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/draw.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B287326584C44070901DB82F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/dynamic.cpp */ = {isa = PBXBuildFile; fileRef = BA7C4EDF4F914CE79606635D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/dynamic.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+068559F1A90645FCB5938382 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/evaluation.cpp */ = {isa = PBXBuildFile; fileRef = C056EF8DB48F45BBBDE05A7D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/evaluation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DFB4B02890914BC5A4595715 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast.cpp */ = {isa = PBXBuildFile; fileRef = D079B916514E4F3391AD956A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6C5A7C964D8C4876B12F8028 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.cpp */ = {isa = PBXBuildFile; fileRef = CA178707C1CF4CD88347D625 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8EBDF96883BA45E6AE117309 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/features2d_init.cpp */ = {isa = PBXBuildFile; fileRef = 552F4FC6D363414A94FF476B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/features2d_init.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6775CE36B1A54C9D944D7883 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/freak.cpp */ = {isa = PBXBuildFile; fileRef = 66BA50BA53AD4CAF8378EA1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/freak.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+404DB5882044489988E70A0D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/keypoint.cpp */ = {isa = PBXBuildFile; fileRef = 2C8A6F7DD424479B9A3F3A23 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/keypoint.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1FDA967D6EDE4B4B89AC03AB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 37FAC191EC224153986B15E7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/matchers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EC86195DE93A409E875BD743 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/mser.cpp */ = {isa = PBXBuildFile; fileRef = 2BFE716215CD4BFCB1418B46 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/mser.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+543E2C4DBA4D4591AB6217A0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/orb.cpp */ = {isa = PBXBuildFile; fileRef = 4174EA9CC9F84D4E8DC2D34D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/orb.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5DE9E76C057247F3A9BE41CC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 4CED37B0C560481FA78C260E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+698F5F470EA6441F99FC241A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/stardetector.cpp */ = {isa = PBXBuildFile; fileRef = F1A73ABA80DA40ECAA1BDE67 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/stardetector.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+56FF3598C6C1439CAB6E2883 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.hpp */ = {isa = PBXBuildFile; fileRef = E4F2D08A384F4324A78B6DCD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C1B0695DE6CB461C8111AD28 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 72F7C598600D4B2BA3069BAB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F05C7637878941918875912D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/cvconfig.h */ = {isa = PBXBuildFile; fileRef = DC2BAA7F990349518A94A513 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/cvconfig.h */; settings = { COMPILER_FLAGS = ""; }; };
+EED1DC24D5754E3BA8DBFA3E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 4EC5A39E35294B4C808F895B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/opencv2/opencv_modules.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+8A1781600B614DDE99A4C439 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A0518D5C78E04A58904C129A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              0F22E938D038420F944B48E9 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              F5BA8B3040D843A6B5821709 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              13894C7292E945D9A321DB17 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              DA2089E386DA4788B63D808C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = B04CAA9B9BDD4A4481E23381 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E68AC6156490470C9C9910A3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              05D607500B124757B6E3BB59 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = B04CAA9B9BDD4A4481E23381 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BFF03BCEC3D747BC9F208D24;
+                     remoteInfo = opencv_features2d;
+              };
+              6B6D4FEBBFC44A81A5B9463F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = B04CAA9B9BDD4A4481E23381 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 67304A93BD9A4196AD8BEED0;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+A0518D5C78E04A58904C129A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+F43189B9361A4299B9835C47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "features2d.hpp"; path = "include/opencv2/features2d/features2d.hpp"; sourceTree = SOURCE_ROOT; };
+360FBE145979419A89D9876A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/bagofwords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bagofwords.cpp"; path = "src/bagofwords.cpp"; sourceTree = SOURCE_ROOT; };
+7109D380ADB34FFE8664B553 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/blobdetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobdetector.cpp"; path = "src/blobdetector.cpp"; sourceTree = SOURCE_ROOT; };
+EC55E5AE739F401281E82CE2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brief.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "brief.cpp"; path = "src/brief.cpp"; sourceTree = SOURCE_ROOT; };
+9B23566E8D854577B3E63D8C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brisk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "brisk.cpp"; path = "src/brisk.cpp"; sourceTree = SOURCE_ROOT; };
+C4344650E1154B88A7CFF21F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/descriptors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "descriptors.cpp"; path = "src/descriptors.cpp"; sourceTree = SOURCE_ROOT; };
+408F9A31ABE84FC699FAFDCD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/detectors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "detectors.cpp"; path = "src/detectors.cpp"; sourceTree = SOURCE_ROOT; };
+FDE725BF01484A6585E1E885 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "draw.cpp"; path = "src/draw.cpp"; sourceTree = SOURCE_ROOT; };
+BA7C4EDF4F914CE79606635D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/dynamic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dynamic.cpp"; path = "src/dynamic.cpp"; sourceTree = SOURCE_ROOT; };
+C056EF8DB48F45BBBDE05A7D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/evaluation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "evaluation.cpp"; path = "src/evaluation.cpp"; sourceTree = SOURCE_ROOT; };
+D079B916514E4F3391AD956A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "fast.cpp"; path = "src/fast.cpp"; sourceTree = SOURCE_ROOT; };
+CA178707C1CF4CD88347D625 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "fast_score.cpp"; path = "src/fast_score.cpp"; sourceTree = SOURCE_ROOT; };
+552F4FC6D363414A94FF476B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/features2d_init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "features2d_init.cpp"; path = "src/features2d_init.cpp"; sourceTree = SOURCE_ROOT; };
+66BA50BA53AD4CAF8378EA1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/freak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "freak.cpp"; path = "src/freak.cpp"; sourceTree = SOURCE_ROOT; };
+2C8A6F7DD424479B9A3F3A23 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/keypoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "keypoint.cpp"; path = "src/keypoint.cpp"; sourceTree = SOURCE_ROOT; };
+37FAC191EC224153986B15E7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/matchers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matchers.cpp"; path = "src/matchers.cpp"; sourceTree = SOURCE_ROOT; };
+2BFE716215CD4BFCB1418B46 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/mser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "mser.cpp"; path = "src/mser.cpp"; sourceTree = SOURCE_ROOT; };
+4174EA9CC9F84D4E8DC2D34D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/orb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "orb.cpp"; path = "src/orb.cpp"; sourceTree = SOURCE_ROOT; };
+4CED37B0C560481FA78C260E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+F1A73ABA80DA40ECAA1BDE67 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/stardetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stardetector.cpp"; path = "src/stardetector.cpp"; sourceTree = SOURCE_ROOT; };
+E4F2D08A384F4324A78B6DCD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "fast_score.hpp"; path = "src/fast_score.hpp"; sourceTree = SOURCE_ROOT; };
+72F7C598600D4B2BA3069BAB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+DC2BAA7F990349518A94A513 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/cvconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "cvconfig.h"; path = "../../../ios/build/iPhoneOS-armv7s/cvconfig.h"; sourceTree = SOURCE_ROOT; };
+4EC5A39E35294B4C808F895B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "opencv_modules.hpp"; path = "../../../ios/build/iPhoneOS-armv7s/opencv2/opencv_modules.hpp"; sourceTree = SOURCE_ROOT; };
+34528B67CEE44BB3A0B18058 /* opencv_features2d */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_features2d.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              6157570696614899A67CE062  = {
+                     isa = PBXGroup;
+                     children = (
+                            7DB16FFB0CA84321A83ED57B /* Sources */,
+                            9FCED9AB7B2C443DBC0046F8 /* Resources */,
+                            2542E1F0FE264C86A415259D /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              7DB16FFB0CA84321A83ED57B /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FA6F63E1D02F427BACBE2D5F /* ALL_BUILD */,
+                            9E6C763CFC184CE6B84323BD /* ZERO_CHECK */,
+                            F799A65B74ED45EBA84447A3 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              9FCED9AB7B2C443DBC0046F8 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              FA6F63E1D02F427BACBE2D5F /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C55E7A956A774471B53E3B92 /* CMake Rules */,
+                            A0518D5C78E04A58904C129A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              C55E7A956A774471B53E3B92 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              9E6C763CFC184CE6B84323BD /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7ED1CE76DDE34C61B9E435BD /* CMake Rules */,
+                            A0518D5C78E04A58904C129A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              7ED1CE76DDE34C61B9E435BD /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              F799A65B74ED45EBA84447A3 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CA12B6E5337540E8BD566B05 /* opencv_features2d */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              CA12B6E5337540E8BD566B05 /* opencv_features2d */ = {
+                     isa = PBXGroup;
+                     children = (
+                            21305FF153BB45248E9300BB /* Include */,
+                            74BB515BD4054CBFB4FAD906 /* Src */,
+                            699D88F783B44A8DAA4BB057 /* Header Files */,
+                            A0518D5C78E04A58904C129A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/CMakeLists.txt */,
+                     );
+                     name = opencv_features2d;
+                     sourceTree = "<group>";
+              };
+              21305FF153BB45248E9300BB /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F43189B9361A4299B9835C47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include/opencv2/features2d/features2d.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              74BB515BD4054CBFB4FAD906 /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            360FBE145979419A89D9876A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/bagofwords.cpp */,
+                            7109D380ADB34FFE8664B553 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/blobdetector.cpp */,
+                            EC55E5AE739F401281E82CE2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brief.cpp */,
+                            9B23566E8D854577B3E63D8C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brisk.cpp */,
+                            C4344650E1154B88A7CFF21F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/descriptors.cpp */,
+                            408F9A31ABE84FC699FAFDCD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/detectors.cpp */,
+                            FDE725BF01484A6585E1E885 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/draw.cpp */,
+                            BA7C4EDF4F914CE79606635D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/dynamic.cpp */,
+                            C056EF8DB48F45BBBDE05A7D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/evaluation.cpp */,
+                            D079B916514E4F3391AD956A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast.cpp */,
+                            CA178707C1CF4CD88347D625 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.cpp */,
+                            552F4FC6D363414A94FF476B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/features2d_init.cpp */,
+                            66BA50BA53AD4CAF8378EA1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/freak.cpp */,
+                            2C8A6F7DD424479B9A3F3A23 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/keypoint.cpp */,
+                            37FAC191EC224153986B15E7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/matchers.cpp */,
+                            2BFE716215CD4BFCB1418B46 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/mser.cpp */,
+                            4174EA9CC9F84D4E8DC2D34D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/orb.cpp */,
+                            4CED37B0C560481FA78C260E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.cpp */,
+                            F1A73ABA80DA40ECAA1BDE67 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/stardetector.cpp */,
+                            E4F2D08A384F4324A78B6DCD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.hpp */,
+                            72F7C598600D4B2BA3069BAB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              699D88F783B44A8DAA4BB057 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DC2BAA7F990349518A94A513 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/cvconfig.h */,
+                            4EC5A39E35294B4C808F895B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/opencv2/opencv_modules.hpp */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              2542E1F0FE264C86A415259D /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            34528B67CEE44BB3A0B18058 /* opencv_features2d */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              BFF03BCEC3D747BC9F208D24 /* opencv_features2d */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B434FB6CE1DA4BC2B6C6A702 /* Build configuration list for PBXNativeTarget "opencv_features2d" */;
+                     buildPhases = (
+                            3F65FB6FF98747EDBAD41D13 /* Sources */,
+                            FFA5956FF01C4B3DB70DF08D /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            1DF3D224DF5F4759A7BDEFBA /* PBXTargetDependency */,
+                     );
+                     name = opencv_features2d;
+                     productName = opencv_features2d;
+                     productReference = 34528B67CEE44BB3A0B18058 /* opencv_features2d */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              B04CAA9B9BDD4A4481E23381 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = DE41C1240DD0405CBD8AF597 /* Build configuration list for PBXProject  "opencv_features2d" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            F5BA8B3040D843A6B5821709 /* Debug */,
+                            13894C7292E945D9A321DB17 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 6157570696614899A67CE062;
+                     projectDirPath = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d";
+                     projectRoot = "";
+                     targets = (
+                            67304A93BD9A4196AD8BEED0 /* ALL_BUILD */,
+                            E68AC6156490470C9C9910A3 /* ZERO_CHECK */,
+                            682AD280B5314C39A0F841CD /* install */,
+                            BFF03BCEC3D747BC9F208D24 /* opencv_features2d */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A55FEC92D16446419DCF7BFB /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              F729C4B021494815959C6C98 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              297DA7CCFE624BFDBF03D07B /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              DA688CABC6BC4B068F731A36 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              4A1150FD29F84A43BEAED19A /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              907947B96336419B8D7A49CA /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FFA5956FF01C4B3DB70DF08D /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d/CMakeScripts/opencv_features2d_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              3F65FB6FF98747EDBAD41D13 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4BDAB8A07A584BDA837185D8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/bagofwords.cpp */,
+                            E01B90CB8C5C4C91B93337F1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/blobdetector.cpp */,
+                            831EC46778944711A8D78305 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brief.cpp */,
+                            CA36C4C797A340049041D689 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/brisk.cpp */,
+                            6DB27FB54CED485181378031 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/descriptors.cpp */,
+                            C9220EF5258C49B5B3E1F9A9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/detectors.cpp */,
+                            9EAA0294DF9B4A3AA0E81C1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/draw.cpp */,
+                            B287326584C44070901DB82F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/dynamic.cpp */,
+                            068559F1A90645FCB5938382 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/evaluation.cpp */,
+                            DFB4B02890914BC5A4595715 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast.cpp */,
+                            6C5A7C964D8C4876B12F8028 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/fast_score.cpp */,
+                            8EBDF96883BA45E6AE117309 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/features2d_init.cpp */,
+                            6775CE36B1A54C9D944D7883 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/freak.cpp */,
+                            404DB5882044489988E70A0D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/keypoint.cpp */,
+                            1FDA967D6EDE4B4B89AC03AB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/matchers.cpp */,
+                            EC86195DE93A409E875BD743 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/mser.cpp */,
+                            543E2C4DBA4D4591AB6217A0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/orb.cpp */,
+                            5DE9E76C057247F3A9BE41CC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/precomp.cpp */,
+                            698F5F470EA6441F99FC241A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src/stardetector.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              1DF3D224DF5F4759A7BDEFBA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E68AC6156490470C9C9910A3 /* ZERO_CHECK */;
+                     targetProxy = DA2089E386DA4788B63D808C /* PBXContainerItemProxy */;
+              };
+              8A74FBF9963D4BD9B2226CC8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BFF03BCEC3D747BC9F208D24 /* opencv_features2d */;
+                     targetProxy = 05D607500B124757B6E3BB59 /* PBXContainerItemProxy */;
+              };
+              2446C78DA9354E258056A352 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 67304A93BD9A4196AD8BEED0 /* ALL_BUILD */;
+                     targetProxy = 6B6D4FEBBFC44A81A5B9463F /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              38CEE6641FFD4E8E8B4D4D72 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d/build";
+                     };
+                     name = Debug;
+              };
+              CA7307492BAA4FAEBB6A9E6A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d/build";
+                     };
+                     name = Release;
+              };
+              2302242A452148DBA5053A37 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              83C35BF667EB4723AE8B64DA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BDD17208D67844818961E7A2 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              7FE0C899414848A1B51C7B53 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5DFD9CAD9A3B4E3AB0C1F1BF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              059D1FF3DD6C460393A60AA0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              33976FB79CFA495280040252 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_features2d;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4E5328CC63FD4AFA9A0204CB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/src", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s", /usr/local/include/eigen3, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG     -fomit-frame-pointer -ffast-math  -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_features2d;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/features2d";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              DE41C1240DD0405CBD8AF597 /* Build configuration list for PBXProject  "opencv_features2d" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            38CEE6641FFD4E8E8B4D4D72 /* Debug */,
+                            CA7307492BAA4FAEBB6A9E6A /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              ACF96E6C82FA46ECA92A42C4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2302242A452148DBA5053A37 /* Debug */,
+                            83C35BF667EB4723AE8B64DA /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              651FDDCC398F43A29041745C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BDD17208D67844818961E7A2 /* Debug */,
+                            7FE0C899414848A1B51C7B53 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              613F4CB8E671497B87DB5EDB /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5DFD9CAD9A3B4E3AB0C1F1BF /* Debug */,
+                            059D1FF3DD6C460393A60AA0 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B434FB6CE1DA4BC2B6C6A702 /* Build configuration list for PBXNativeTarget "opencv_features2d" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            33976FB79CFA495280040252 /* Debug */,
+                            4E5328CC63FD4AFA9A0204CB /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = B04CAA9B9BDD4A4481E23381;
+}

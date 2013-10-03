@@ -1,0 +1,523 @@
+Tlibpng
+v5
+r1
+cCheck dependencies
+cSymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a normal armv7s
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-70ED3A4476A440A19DFE5F4C.sh
+cStripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+cSetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+cSetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c00000000517588920000000000000110
+t1366657170
+s272
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a
+t1380759611
+s176136
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/libpng.LinkFileList
+c00000000524CB83800000000000009B9
+t1380759608
+s2489
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.o
+t1380759609
+s19068
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.o
+t1380759608
+s4724
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.o
+t1380759608
+s6816
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.o
+t1380759608
+s2048
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.o
+t1380759608
+s9864
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.o
+t1380759608
+s10292
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.o
+t1380759608
+s1176
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.o
+t1380759610
+s21588
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.o
+t1380759609
+s30960
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.o
+t1380759609
+s10844
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.o
+t1380759608
+s3712
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.o
+t1380759608
+s1336
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.o
+t1380759609
+s11772
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.o
+t1380759609
+s2660
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.o
+t1380759609
+s27124
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-70ED3A4476A440A19DFE5F4C.sh
+c00000000524CB8D40000000000000105
+t1380759764
+s261
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-DEAECF39CC92448ABBE55216.sh
+c00000000524CB8380000000000000105
+t1380759608
+s261
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+t2
+s0
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib/zconf.h
+c00000000524CB82E0000000000003C0C
+t1380759598
+s15372
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c
+c0000000051DD4A2C0000000000016A66
+t1373456940
+s92774
+i"pngpriv.h"
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.h
+c0000000051DD4A2C000000000001C4C3
+t1373456940
+s115907
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngconf.h
+c0000000051DD4A2C000000000000536A
+t1373456940
+s21354
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngdebug.h
+c0000000051DD4A2C000000000000151B
+t1373456940
+s5403
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c
+c0000000051DD4A2C0000000000005007
+t1373456940
+s20487
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c
+c0000000051DD4A2C00000000000077C2
+t1373456940
+s30658
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pnginfo.h
+c0000000051DD4A2C0000000000003072
+t1373456940
+s12402
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pnglibconf.h
+c0000000051DD4A2C000000000000187C
+t1373456940
+s6268
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c
+c0000000051DD4A2C000000000000450A
+t1373456940
+s17674
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c
+c0000000051DD4A2C0000000000008F28
+t1373456940
+s36648
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpriv.h
+c0000000051DD4A2C000000000000FBBB
+t1373456940
+s64443
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.c
+c0000000051DD4A2C000000000000980A
+t1373456940
+s38922
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c
+c0000000051DD4A2C0000000000001466
+t1373456940
+s5222
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c
+c0000000051DD4A2C00000000000290C7
+t1373456940
+s168135
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.c
+c0000000051DD4A2C000000000001DF77
+t1373456940
+s122743
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c
+c0000000051DD4A2C0000000000009036
+t1373456940
+s36918
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngstruct.h
+c0000000051DD4A2C0000000000003C9B
+t1373456940
+s15515
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c
+c0000000051DD4A2C0000000000005916
+t1373456940
+s22806
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.c
+c0000000051DD4A2C0000000000001DD3
+t1373456940
+s7635
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.c
+c0000000051DD4A2C000000000000C780
+t1373456940
+s51072
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.c
+c0000000051DD4A2C00000000000043C5
+t1373456940
+s17349
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c
+c0000000051DD4A2C0000000000016687
+t1373456940
+s91783
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib/zlib.h
+c0000000051DD4A2C00000000000152BD
+t1373456940
+s86717
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies35b3f67bf0fcb741^b6d7f67bf0fcb741^---0#1#0#--18"Check dependencies36"727FE86C-675E-4766-AAF9-D17EA4B719E5-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.501240
+e402452409.076663
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c446c80b8effcb741^40a013b9effcb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c0000000000000000^3541"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.o 3rdparty/libpng/png.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/png.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/png.o36"ECDAD39C-2E13-4175-9E05-78F2BEFBEBF4-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.501779
+e402452408.628925
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c8f8d80b8effcb741^e700a1b8effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.o 3rdparty/libpng/pngerror.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngerror.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngerror.o36"8D20F80A-229C-432C-971C-C042A1CADE53-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.502257
+e402452408.739543
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c04ad80b8effcb741^3b52bdb8effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c0000000000000000^3559"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.o 3rdparty/libpng/pngget.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngget.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngget.o36"1B95E3D2-06B9-48DE-803A-B76228C3F145-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.599387
+e402452408.657859
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c718f99b8effcb741^2f69a8b8effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c0000000000000000^3559"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.o 3rdparty/libpng/pngmem.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngmem.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngmem.o36"C5422A34-4E50-4E15-B861-5D020FE8DEEE-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.613160
+e402452408.976549
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c94139db8effcb741^043afbb8effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.o 3rdparty/libpng/pngpread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngpread.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngpread.o36"1EB43CE5-43A1-43C7-B2B5-E5ABC7E37DEE-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.630445
+e402452408.830680
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.cb280a1b8effcb741^9fb0d4b8effcb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.c0000000000000000^3565"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.o 3rdparty/libpng/pngread.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngread.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngread.o36"25D92E02-340A-4178-B1A2-BEAF6CD34F9E-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.659153
+e402452408.713747
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c6edaa8b8effcb741^ccb7b6b8effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c0000000000000000^3559"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.o 3rdparty/libpng/pngrio.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrio.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrio.o36"5E737303-AE9C-4EB9-AE32-18DEF3944010-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.732592
+e402452410.065822
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c6da9bbb8effcb741^84d910baeffcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.o 3rdparty/libpng/pngrtran.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrtran.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrtran.o36"EA5AA18E-2874-4D32-92B1-B8E8EC01625B-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.741672
+e402452409.627993
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.ce3fcbdb8effcb741^05c4a0b9effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.o 3rdparty/libpng/pngrutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngrutil.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngrutil.o36"D6AC7368-EAD3-4376-81E8-8AF48662FA8B-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.756340
+e402452409.083888
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c06bbc1b8effcb741^22c415b9effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c0000000000000000^3559"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.o 3rdparty/libpng/pngset.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngset.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngset.o36"65A15058-0BC1-45C4-A4C8-EE673787C9D3-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.809253
+e402452408.956564
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c9946cfb8effcb741^61e1f4b8effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.o 3rdparty/libpng/pngtrans.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngtrans.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngtrans.o36"3BB9E45E-F278-4576-8316-DC0DB4226D3A-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.831940
+e402452408.876627
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.cd713d5b8effcb741^b16ae0b8effcb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.c0000000000000000^3559"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.o 3rdparty/libpng/pngwio.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwio.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwio.o36"B71C4518-EC86-4ABC-B9DD-5F8F6850E0F7-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.877799
+e402452409.176281
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.ceed0e0b8effcb741^9f202db9effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.o 3rdparty/libpng/pngwrite.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwrite.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwrite.o36"5751A68A-9145-4E0A-B360-3CC8EE2C076F-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452408.966359
+e402452409.073769
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.cdc80f7b8effcb741^43e212b9effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.o 3rdparty/libpng/pngwtran.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwtran.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwtran.o36"B64CFE2C-83C7-4DD2-B7D1-C4A653B39420-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s402452409.025032
+e402452409.775264
+r1
+xCompileC
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.o
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c168406b9effcb741^45bbc6b9effcb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c0000000000000000^3571"CompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.o 3rdparty/libpng/pngwutil.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/include -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/zlib -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7s -I/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -fPIC -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.d --serialize-diagnostics /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.dia -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libpng/pngwutil.c -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/pngwutil.o36"1E25645A-4026-4BB4-9337-B8F3419403DB-
+
+CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a normal armv7s
+s402452411.144395
+e402452411.154513
+r1
+xLibtool
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a normal armv7sa60b25bbeffcb741^088e27bbeffcb741^---0#0#0#--1166"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a normal armv7s    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/libpng.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a36"90C16EAB-998A-4934-A9A6-1EDAB42D29C7-
+
+CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a normal armv7s
+s402452603.990317
+e402452603.998534
+r1
+xLibtool
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a normal armv7sdd99fd7bf0fcb741^30a0ff7bf0fcb741^---0#0#0#--1196"Libtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a normal armv7s    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release -filelist /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7s/libpng.LinkFileList -o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a36"9A0676B7-206B-47A6-ADF1-42A933E728E5-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-70ED3A4476A440A19DFE5F4C.sh
+s402452604.006586
+e402452604.046198
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-70ED3A4476A440A19DFE5F4C.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release
+omake[1]: Nothing to be done for `PostBuild.libpng.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release
+omake[1]: Nothing to be done for `PostBuild.libpng.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'4302027cf0fcb741^4ed30b7cf0fcb741^-884"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Releasemake[1]: Nothing to be done for `PostBuild.libpng.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Releasemake[1]: Nothing to be done for `PostBuild.libpng.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452604#0#30#-0#-----2@23"Depend check for xcode-402452604#30#23#-0#-----2@305"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release-402452604#53#305#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.libpng.Release'.-402452604#358#60#-0#-----2@30"echo "Depend check for xcode"-402452604#418#30#-0#-----2@23"Depend check for xcode-402452604#448#23#-0#-----2@353"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release-402452604#471#353#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.libpng.Release'.-402452604#824#60#-0#-----0#0#0#--469"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-70ED3A4476A440A19DFE5F4C.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-70ED3A4476A440A19DFE5F4C.sh36"0B4E8879-EECF-4400-B155-7EE2E70EF0E6-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-DEAECF39CC92448ABBE55216.sh
+s402452419.719644
+e402452419.774045
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-DEAECF39CC92448ABBE55216.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release
+omake[1]: Nothing to be done for `PostBuild.libpng.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release
+omake[1]: Nothing to be done for `PostBuild.libpng.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'5a9db8c3effcb741^693bc6c3effcb741^-884"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Releasemake[1]: Nothing to be done for `PostBuild.libpng.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Releasemake[1]: Nothing to be done for `PostBuild.libpng.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452419#0#30#-0#-----2@23"Depend check for xcode-402452419#30#23#-0#-----2@305"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release-402452419#53#305#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.libpng.Release'.-402452419#358#60#-0#-----2@30"echo "Depend check for xcode"-402452419#418#30#-0#-----2@23"Depend check for xcode-402452419#448#23#-0#-----2@353"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libpng.Release-402452419#471#353#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.libpng.Release'.-402452419#824#60#-0#-----0#0#0#--469"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-DEAECF39CC92448ABBE55216.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Script-DEAECF39CC92448ABBE55216.sh36"CA619B36-08E2-4045-82D5-74B225C27202-
+
+CSetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+s402452604.155923
+e402452604.160646
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"SetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a12f8277cf0fcb741^3a20297cf0fcb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a0000000000000000^661"SetMode u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a36"95E8FA2C-B319-4E83-BA2A-EF7C01B8AE47-
+
+CSetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+s402452604.142450
+e402452604.148012
+r1
+xSetOwnerAndGroup
+xIanZhang:staff
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"SetOwnerAndGroup IanZhang:staff /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.acf86247cf0fcb741^04e6257cf0fcb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a0000000000000000^681"SetOwnerAndGroup "IanZhang:staff" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "IanZhang:staff" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a36"F6B66448-BEFE-45C3-A522-CB12702E2EAF-
+
+CStripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+s402452604.054319
+e402452604.134475
+r1
+xStripping
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Stripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a94f70d7cf0fcb741^f46c227cf0fcb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a0000000000000000^716"Stripping /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a36"C60E8C9E-3F67-47DB-9C6D-DB5F11134D79-
+
+CSymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+s402452603.967064
+e402452603.971900
+r1
+xSymLink
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Process /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a0ea0f77bf0fcb741^70cef87bf0fcb741^---0#0#0#--846"SymLink /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/libpng/UninstalledProducts/liblibpng.a /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/3rdparty/lib/Release/liblibpng.a36"D1E38569-79D4-48F3-BE08-6C39561A4251-
+

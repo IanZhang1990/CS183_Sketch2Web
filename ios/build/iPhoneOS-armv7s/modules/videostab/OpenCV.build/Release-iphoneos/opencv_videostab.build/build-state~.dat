@@ -1,0 +1,343 @@
+Topencv_videostab
+v5
+r1
+cCheck dependencies
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/deblurring.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/deblurring.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/fast_marching.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/fast_marching.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/frame_source.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/frame_source.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/global_motion.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/global_motion.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/inpainting.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/inpainting.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/log.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/log.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/motion_stabilizing.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/motion_stabilizing.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/optical_flow.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/optical_flow.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/precomp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/precomp.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/stabilizer.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/stabilizer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/lib/Release/libopencv_videostab.a normal armv7s
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-8C0FE6C19816467E861B6A0C.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c00000000517588920000000000000110
+t1366657170
+s272
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/cvconfig.h
+c00000000524CB8360000000000001606
+t1380759606
+s5638
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/lib/Release/libopencv_videostab.a
+t1380759686
+s214208
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/deblurring.o
+t1380759682
+s12288
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/fast_marching.o
+t1380759682
+s2680
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/frame_source.o
+t1380759684
+s7604
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/global_motion.o
+t1380759685
+s31452
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/inpainting.o
+t1380759686
+s73340
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/log.o
+t1380759684
+s1656
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/motion_stabilizing.o
+t1380759684
+s14696
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/opencv_videostab.LinkFileList
+c00000000524CB881000000000000071A
+t1380759681
+s1818
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/optical_flow.o
+t1380759684
+s2132
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/precomp.o
+t1380759685
+s424
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/stabilizer.o
+t1380759686
+s49464
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-8C0FE6C19816467E861B6A0C.sh
+c00000000524CB8D40000000000000113
+t1380759764
+s275
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/opencv2/opencv_modules.hpp
+c00000000524CB8360000000000000256
+t1380759606
+s598
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/core.hpp
+c0000000051DD4A2C000000000002D73C
+t1373456940
+s186172
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/core_c.h
+c0000000051DD4A2C0000000000013298
+t1373456940
+s78488
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/mat.hpp
+c0000000051DD4A2C0000000000013A5A
+t1373456940
+s80474
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/operations.hpp
+c0000000051DD4A2C000000000001F855
+t1373456940
+s129109
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/types_c.h
+c0000000051DD4A2C000000000000E041
+t1373456940
+s57409
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/core/include/opencv2/core/version.hpp
+c0000000051DD4A2C0000000000000B70
+t1373456940
+s2928
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/features2d/include/opencv2/features2d/features2d.hpp
+c0000000051DD4A2C000000000000F914
+t1373456940
+s63764
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include/opencv2/flann/config.h
+c0000000051DD4A2C00000000000006FD
+t1373456940
+s1789
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include/opencv2/flann/defines.h
+c0000000051DD4A2C000000000000124B
+t1373456940
+s4683
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/flann/include/opencv2/flann/miniflann.hpp
+c0000000051DD4A2C0000000000001785
+t1373456940
+s6021
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/highgui.hpp
+c0000000051DD4A2C00000000000023CA
+t1373456940
+s9162
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/highgui/include/opencv2/highgui/highgui_c.h
+c0000000051DD4A2C00000000000066C9
+t1373456940
+s26313
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c0000000051DD4A2C000000000000DA60
+t1373456940
+s55904
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/imgproc/include/opencv2/imgproc/types_c.h
+c0000000051DD4A2C0000000000004038
+t1373456940
+s16440
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/photo/include/opencv2/photo/photo.hpp
+c0000000051DD4A2C0000000000000F9D
+t1373456940
+s3997
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/photo/include/opencv2/photo/photo_c.h
+c0000000051DD4A2C0000000000000A57
+t1373456940
+s2647
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/video/include/opencv2/video/background_segm.hpp
+c0000000051DD4A2C0000000000002A72
+t1373456940
+s10866
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/video/include/opencv2/video/tracking.hpp
+c0000000051DD4A2C00000000000047FF
+t1373456940
+s18431
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/video/include/opencv2/video/video.hpp
+c0000000051DD4A2C0000000000000970
+t1373456940
+s2416
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/deblurring.hpp
+c0000000051DD4A2C0000000000000F1D
+t1373456940
+s3869
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/fast_marching.hpp
+c0000000051DD4A2C0000000000000E00
+t1373456940
+s3584
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp
+c0000000051DD4A2C000000000000155B
+t1373456940
+s5467
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/frame_source.hpp
+c0000000051DD4A2C0000000000000C5C
+t1373456940
+s3164
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/global_motion.hpp
+c0000000051DD4A2C0000000000001558
+t1373456940
+s5464
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/inpainting.hpp
+c0000000051DD4A2C0000000000001AC5
+t1373456940
+s6853
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/log.hpp
+c0000000051DD4A2C0000000000000A7F
+t1373456940
+s2687
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp
+c0000000051DD4A2C0000000000000E46
+t1373456940
+s3654
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/optical_flow.hpp
+c0000000051DD4A2C000000000000103F
+t1373456940
+s4159
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/include/opencv2/videostab/stabilizer.hpp
+c0000000051DD4A2C0000000000001955
+t1373456940
+s6485
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/deblurring.cpp
+c0000000051DD4A2C0000000000001348
+t1373456940
+s4936
+i"precomp.hpp"
+i"opencv2/videostab/deblurring.hpp"
+i"opencv2/videostab/global_motion.hpp"
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/fast_marching.cpp
+c0000000051DD4A2C00000000000011C2
+t1373456940
+s4546
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/frame_source.cpp
+c0000000051DD4A2C0000000000000AD1
+t1373456940
+s2769
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/global_motion.cpp
+c0000000051DD4A2C0000000000002CD3
+t1373456940
+s11475
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/inpainting.cpp
+c0000000051DD4A2C00000000000045A9
+t1373456940
+s17833
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/log.cpp
+c0000000051DD4A2C00000000000009E0
+t1373456940
+s2528
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/motion_stabilizing.cpp
+c0000000051DD4A2C0000000000001B55
+t1373456940
+s6997
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/optical_flow.cpp
+c0000000051DD4A2C0000000000000D7B
+t1373456940
+s3451
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/precomp.cpp
+c0000000051DD4A2C0000000000000889
+t1373456940
+s2185
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/precomp.hpp
+c0000000051DD4A2C0000000000000CB5
+t1373456940
+s3253
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/stabilizer.cpp
+c0000000051DD4A2C0000000000002C0A
+t1373456940
+s11274
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies93a8a754f0fcb741^e127b654f0fcb741^---0#1#0#--18"Check dependencies36"C61E61F6-9FE2-447C-A807-9AB125A9828B-
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/deblurring.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/deblurring.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/fast_marching.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/fast_marching.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/frame_source.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/frame_source.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/global_motion.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/global_motion.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/inpainting.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/inpainting.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/log.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/log.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/motion_stabilizing.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/motion_stabilizing.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/optical_flow.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/optical_flow.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/precomp.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/precomp.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7s/stabilizer.o /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/modules/videostab/src/stabilizer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/lib/Release/libopencv_videostab.a normal armv7s
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-8C0FE6C19816467E861B6A0C.sh
+s402452595.652560
+e402452595.707425
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-8C0FE6C19816467E861B6A0C.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'7974a773f0fcb741^bd1db573f0fcb741^-930"echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Releasemake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Releasemake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-402452595#0#30#-0#-----2@23"Depend check for xcode-402452595#30#23#-0#-----2@315"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release-402452595#53#315#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.-402452595#368#70#-0#-----2@30"echo "Depend check for xcode"-402452595#438#30#-0#-----2@23"Depend check for xcode-402452595#468#23#-0#-----2@369"cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab && make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release-402452595#491#369#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.-402452595#860#70#-0#-----0#0#0#--493"PhaseScriptExecution "CMake PostBuild Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-8C0FE6C19816467E861B6A0C.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-8C0FE6C19816467E861B6A0C.sh36"D4989ACF-E57C-4FE5-9FC0-9E4E3115C730-
+

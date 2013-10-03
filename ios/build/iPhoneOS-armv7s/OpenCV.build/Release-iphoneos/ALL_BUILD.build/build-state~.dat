@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-D2847F634CD3494BBFC3637D.sh
+
+N/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-D2847F634CD3494BBFC3637D.sh
+c00000000524CB8FA00000000000000EE
+t1380759802
+s238
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2103c97af0fcb741^1c42c97af0fcb741^---0#1#0#--18"Check dependencies36"97AD7CB7-DD27-4AF0-B76A-24CED8F6DCC5-
+
+CPhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-D2847F634CD3494BBFC3637D.sh
+s402452602.787651
+e402452602.807358
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-D2847F634CD3494BBFC3637D.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'24eec97af0fcb741^9faece7af0fcb741^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-402452602#0#8#-0#-----2@26"echo Build\ all\ projects-402452602#9#26#-0#-----2@19"Build all projects-402452602#35#19#-0#-----0#0#0#--433"PhaseScriptExecution "CMake Rules" /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-D2847F634CD3494BBFC3637D.sh    cd /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1    /bin/sh -c /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-D2847F634CD3494BBFC3637D.sh36"235159C6-E57A-43D3-A70B-96C76F919717-
+

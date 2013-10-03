@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              4E0BC4EC07624D398055ED0C /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 287B2BCEEF0246CCB5F1C6C5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            AD6E429A8FD44CD691D466AE /* CMake Rules */,
+                     );
+                     dependencies = (
+                            2A6A4518EBA94F43A363347C /* PBXTargetDependency */,
+                            888EA113099D4F34AB1F908F /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              98A0C14B9C4749CBA5B9474F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 88CEE9482A9C4B41A353AEE7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            08CF631E95D74EF98EF6D018 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B7078E9D597547AF8FC29DEB /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C45119E25DD842B185C6FF53 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            5F71A7CE3939469C92661A0C /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            868BE972AD7D47F0A70B418D /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+F1DE60978BD043579714D06F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 69FA8EEBD11F4A05A63E2FAE /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+D257532B39C848129D6CB778 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 703F21B8C3094A989C2D7701 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+455030F4F83349DE8F931036 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 66F89667160945D6A4A84FAA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+0EBDE23C04244A36B10957EF /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = DFEA3BDC988A45BCAFDC4B63 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+2B3D16DF23E3438B995305F9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = 09EFEE2E5D2B4491BBF19D28 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcdctmgr.c */; settings = { COMPILER_FLAGS = "-O1"; }; };
+7622130750954A5FAF4B540A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = 9A9D234A091E453193B1793F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+EA18EF1ABDB048EEBFCB01AC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = E30818337C784CA3AB066DC1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcinit.c */; settings = { COMPILER_FLAGS = ""; }; };
+5330EE8D0792481DBD1CCD99 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 21CDAB3F8C034264AC10B05B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+DBA6074E05DC4D0C99682577 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = B89C97BD65194961B36C10EC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+13539189591342F69CAAE529 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 9183F486072F49C0A0AE1624 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+1DA08CD462864A72898AEDF9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = D57C26B73A3645AF98241447 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcomapi.c */; settings = { COMPILER_FLAGS = ""; }; };
+42E67FECDB884DC9AFB036B6 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = 083A27BB5CD641029AAC866C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcparam.c */; settings = { COMPILER_FLAGS = ""; }; };
+24570AC4E83C45D8B00D9C62 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcphuff.c */ = {isa = PBXBuildFile; fileRef = D3F075539B8F4A3FAF45028A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+90F0B78753A94FE79067950C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = C811C557820148AAA60EE5CD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcprepct.c */; settings = { COMPILER_FLAGS = ""; }; };
+E6B91DC03A9446919BD5D93F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = 6C0C768445C444D9B81C4A21 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+A09C8893FFF84CACB5B41547 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = 65049A4F891644E0A2629EDE /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jctrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+93796C1A568F400883CEE78A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 8B31482AA31E42D8B5744D78 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+E19AAE7AB0464F5B9F65405A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 09A23E0D1C7E4D2DA9CE11E0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+E08E535313004F11B5958571 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = F58B7426F223498AA59274D1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatadst.c */; settings = { COMPILER_FLAGS = ""; }; };
+D83E156EC0764FD48BB7B152 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = DC9B9692F9C248D89D283655 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatasrc.c */; settings = { COMPILER_FLAGS = ""; }; };
+2970A68D14D048729ADC291F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = 492A39D39DFF4FE4A026AF10 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+5B9E8B8E2FA046FBBD4E21CF /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = 9EFAD2344885414680E83D3E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+2CF07C69D14C4A8FB74CDCC8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = 45905D1EBF044A3FB1603349 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jddctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+102ECB1074A54AF3922C9860 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 023E5D6BF90F41AA833644AD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+6F3552503324412EB21D85BA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = CC3ACAF1F8F147EC96091E5D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdinput.c */; settings = { COMPILER_FLAGS = ""; }; };
+8DA71CCA1E7A4BA5B3FD1EC7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 7A3E9E9DB5D5485C9CD713E7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+930A9FD931AB4EEBBD1201F2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = 6BB265AE09324EADB368CD1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+7FE4FF6CC59A4E18A5F4A72C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = 1499FA81E1A6473CBD05F549 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+B9338E94414B4CA5A74AB17A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = C8123A78F7C34D988676664A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmerge.c */; settings = { COMPILER_FLAGS = ""; }; };
+AAE506F7B34F451D836455B0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdphuff.c */ = {isa = PBXBuildFile; fileRef = E4BDD5A36D4240C4B75E6BDB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+B21BFAC3109E4485BD6DADFA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = CA72545D93594D4F8AA21BBA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdpostct.c */; settings = { COMPILER_FLAGS = ""; }; };
+A52C33651DF644579913E6F2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = 690C26BDC1F741D69D4108E0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+ACF74A21F6F146E3A9F30CC0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = 22FAEC8982B642CEAA29C342 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdtrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+139CAED4E3254F9EA92CDE86 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = E1E80E3320D444FB85CA9588 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.c */; settings = { COMPILER_FLAGS = ""; }; };
+B086DCC883BD42E7AC694978 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = E54E9BBAA5AE4624A2A12C1F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+8F9708E6576241FA9CFF3C5D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = F2E915255FBE4185827010F1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+AE70AF21D13042C99D67F0FD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = F8D5CB5278BA441F8C93D52C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+42FC82CDA7694D389BC3AA0F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 5F172C47FDE34F23A5B592D5 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+77E32475854348B9B02CC976 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 6E0E1616D3E9468CAC231E29 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+7BB1F529B3EF434C974F1A47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = 68AC20D56B51491FB4AFCBFB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+1BD7FA65A545492AB8288E47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctred.c */ = {isa = PBXBuildFile; fileRef = F8CE7CD3C38144FCB8DC9F5E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctred.c */; settings = { COMPILER_FLAGS = ""; }; };
+D75138631C1E4A5D99AC22B0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemansi.c */ = {isa = PBXBuildFile; fileRef = 2328AB6B65494A55BD2362F8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemansi.c */; settings = { COMPILER_FLAGS = ""; }; };
+DFE8A290104148F595306587 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = F0976357D6F94511B4E99D9F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+5ADE5B475A674861A559A421 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = DC7146EB0B154F4C98D933C7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant1.c */; settings = { COMPILER_FLAGS = ""; }; };
+3DD7AEFBD0CD4ECCB3B5C976 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = 8BC006300B9945C5AEA6D919 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant2.c */; settings = { COMPILER_FLAGS = ""; }; };
+1FAAC47C2442457DA43317DD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = 9F4DDC359D504D72966D4171 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jutils.c */; settings = { COMPILER_FLAGS = ""; }; };
+3B77399C97D7444EB8396238 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.c */ = {isa = PBXBuildFile; fileRef = 9CCA730FC1D94A5982FC0957 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.c */; settings = { COMPILER_FLAGS = ""; }; };
+7E91D8F352C641EABBBED6A3 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.h */ = {isa = PBXBuildFile; fileRef = D65531220AB74B639A4BDF29 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.h */; settings = { COMPILER_FLAGS = ""; }; };
+FA73B0D4CB2D4B4B949CA578 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jconfig.h */ = {isa = PBXBuildFile; fileRef = 5B0E4BBFDBA141908E0714E9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jconfig.h */; settings = { COMPILER_FLAGS = ""; }; };
+3019D4E1CB954B09A74E390F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdct.h */ = {isa = PBXBuildFile; fileRef = 70D4A5E0EB1D4C019D2C2792 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdct.h */; settings = { COMPILER_FLAGS = ""; }; };
+396BD58246C44072942883B9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.h */ = {isa = PBXBuildFile; fileRef = F14CCDA2071C4B70AEBFA6F7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.h */; settings = { COMPILER_FLAGS = ""; }; };
+F2F127C4AF5F4A8EB80EC384 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.h */ = {isa = PBXBuildFile; fileRef = 6C5B325CB38149A6A9401144 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.h */; settings = { COMPILER_FLAGS = ""; }; };
+C5B364FDA48A4EE89EC5EA68 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jinclude.h */ = {isa = PBXBuildFile; fileRef = 9DBC51B1AAF948E2B42D9665 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jinclude.h */; settings = { COMPILER_FLAGS = ""; }; };
+BB710C4C27FD46E28BB56C71 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemsys.h */ = {isa = PBXBuildFile; fileRef = CE6D0625286240398CE831A4 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemsys.h */; settings = { COMPILER_FLAGS = ""; }; };
+AA2331BB1E004114A776F710 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmorecfg.h */ = {isa = PBXBuildFile; fileRef = 041955D3D5EF4AA283BEE2F5 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmorecfg.h */; settings = { COMPILER_FLAGS = ""; }; };
+BF810649D05D40CFBE3CC22E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpegint.h */ = {isa = PBXBuildFile; fileRef = 8100699BD5BC4576946DFD3C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpegint.h */; settings = { COMPILER_FLAGS = ""; }; };
+D3B5390248E64758BAA02536 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpeglib.h */ = {isa = PBXBuildFile; fileRef = BD7AE56C40824047A2CD398B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpeglib.h */; settings = { COMPILER_FLAGS = ""; }; };
+AD2817E2487946649295AFAC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jversion.h */ = {isa = PBXBuildFile; fileRef = 8FC185AFF53C4CA9A20595E6 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jversion.h */; settings = { COMPILER_FLAGS = ""; }; };
+DE713809B68A4B578FC7421E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.h */ = {isa = PBXBuildFile; fileRef = ED655E82D03A4D86A50BF9AB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.h */; settings = { COMPILER_FLAGS = ""; }; };
+71F14D1B844F495D8A6916CB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9433FFBB3F634775A529733C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              B4CB46E70FB647BDBA202EA0 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              E4991B88E7294F55A8A5D1CC /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              13BF507925574762A4F3227D /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              5427D0AD0E6E4FF5823A8433 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 79CAD3F302034F99BD0DED95 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0B851C06F3EE4B88898A3BDE;
+                     remoteInfo = libjpeg;
+              };
+              3560305E7A4242798785DD91 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 79CAD3F302034F99BD0DED95 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 98A0C14B9C4749CBA5B9474F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              EF4AD9631E2742DF9BB50817 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 79CAD3F302034F99BD0DED95 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 4E0BC4EC07624D398055ED0C;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+9433FFBB3F634775A529733C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+69FA8EEBD11F4A05A63E2FAE /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapimin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcapimin.c"; path = "jcapimin.c"; sourceTree = SOURCE_ROOT; };
+703F21B8C3094A989C2D7701 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapistd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcapistd.c"; path = "jcapistd.c"; sourceTree = SOURCE_ROOT; };
+66F89667160945D6A4A84FAA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccoefct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jccoefct.c"; path = "jccoefct.c"; sourceTree = SOURCE_ROOT; };
+DFEA3BDC988A45BCAFDC4B63 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccolor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jccolor.c"; path = "jccolor.c"; sourceTree = SOURCE_ROOT; };
+09EFEE2E5D2B4491BBF19D28 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcdctmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcdctmgr.c"; path = "jcdctmgr.c"; sourceTree = SOURCE_ROOT; };
+9A9D234A091E453193B1793F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jchuff.c"; path = "jchuff.c"; sourceTree = SOURCE_ROOT; };
+E30818337C784CA3AB066DC1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcinit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcinit.c"; path = "jcinit.c"; sourceTree = SOURCE_ROOT; };
+21CDAB3F8C034264AC10B05B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmainct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcmainct.c"; path = "jcmainct.c"; sourceTree = SOURCE_ROOT; };
+B89C97BD65194961B36C10EC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmarker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcmarker.c"; path = "jcmarker.c"; sourceTree = SOURCE_ROOT; };
+9183F486072F49C0A0AE1624 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcmaster.c"; path = "jcmaster.c"; sourceTree = SOURCE_ROOT; };
+D57C26B73A3645AF98241447 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcomapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcomapi.c"; path = "jcomapi.c"; sourceTree = SOURCE_ROOT; };
+083A27BB5CD641029AAC866C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcparam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcparam.c"; path = "jcparam.c"; sourceTree = SOURCE_ROOT; };
+D3F075539B8F4A3FAF45028A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcphuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcphuff.c"; path = "jcphuff.c"; sourceTree = SOURCE_ROOT; };
+C811C557820148AAA60EE5CD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcprepct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcprepct.c"; path = "jcprepct.c"; sourceTree = SOURCE_ROOT; };
+6C0C768445C444D9B81C4A21 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcsample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcsample.c"; path = "jcsample.c"; sourceTree = SOURCE_ROOT; };
+65049A4F891644E0A2629EDE /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jctrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jctrans.c"; path = "jctrans.c"; sourceTree = SOURCE_ROOT; };
+8B31482AA31E42D8B5744D78 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapimin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdapimin.c"; path = "jdapimin.c"; sourceTree = SOURCE_ROOT; };
+09A23E0D1C7E4D2DA9CE11E0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapistd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdapistd.c"; path = "jdapistd.c"; sourceTree = SOURCE_ROOT; };
+F58B7426F223498AA59274D1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatadst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdatadst.c"; path = "jdatadst.c"; sourceTree = SOURCE_ROOT; };
+DC9B9692F9C248D89D283655 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatasrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdatasrc.c"; path = "jdatasrc.c"; sourceTree = SOURCE_ROOT; };
+492A39D39DFF4FE4A026AF10 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcoefct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdcoefct.c"; path = "jdcoefct.c"; sourceTree = SOURCE_ROOT; };
+9EFAD2344885414680E83D3E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcolor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdcolor.c"; path = "jdcolor.c"; sourceTree = SOURCE_ROOT; };
+45905D1EBF044A3FB1603349 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jddctmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jddctmgr.c"; path = "jddctmgr.c"; sourceTree = SOURCE_ROOT; };
+023E5D6BF90F41AA833644AD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdhuff.c"; path = "jdhuff.c"; sourceTree = SOURCE_ROOT; };
+CC3ACAF1F8F147EC96091E5D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdinput.c"; path = "jdinput.c"; sourceTree = SOURCE_ROOT; };
+7A3E9E9DB5D5485C9CD713E7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmainct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmainct.c"; path = "jdmainct.c"; sourceTree = SOURCE_ROOT; };
+6BB265AE09324EADB368CD1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmarker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmarker.c"; path = "jdmarker.c"; sourceTree = SOURCE_ROOT; };
+1499FA81E1A6473CBD05F549 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmaster.c"; path = "jdmaster.c"; sourceTree = SOURCE_ROOT; };
+C8123A78F7C34D988676664A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmerge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmerge.c"; path = "jdmerge.c"; sourceTree = SOURCE_ROOT; };
+E4BDD5A36D4240C4B75E6BDB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdphuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdphuff.c"; path = "jdphuff.c"; sourceTree = SOURCE_ROOT; };
+CA72545D93594D4F8AA21BBA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdpostct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdpostct.c"; path = "jdpostct.c"; sourceTree = SOURCE_ROOT; };
+690C26BDC1F741D69D4108E0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdsample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdsample.c"; path = "jdsample.c"; sourceTree = SOURCE_ROOT; };
+22FAEC8982B642CEAA29C342 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdtrans.c"; path = "jdtrans.c"; sourceTree = SOURCE_ROOT; };
+E1E80E3320D444FB85CA9588 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jerror.c"; path = "jerror.c"; sourceTree = SOURCE_ROOT; };
+E54E9BBAA5AE4624A2A12C1F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctflt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jfdctflt.c"; path = "jfdctflt.c"; sourceTree = SOURCE_ROOT; };
+F2E915255FBE4185827010F1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctfst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jfdctfst.c"; path = "jfdctfst.c"; sourceTree = SOURCE_ROOT; };
+F8D5CB5278BA441F8C93D52C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jfdctint.c"; path = "jfdctint.c"; sourceTree = SOURCE_ROOT; };
+5F172C47FDE34F23A5B592D5 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctflt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctflt.c"; path = "jidctflt.c"; sourceTree = SOURCE_ROOT; };
+6E0E1616D3E9468CAC231E29 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctfst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctfst.c"; path = "jidctfst.c"; sourceTree = SOURCE_ROOT; };
+68AC20D56B51491FB4AFCBFB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctint.c"; path = "jidctint.c"; sourceTree = SOURCE_ROOT; };
+F8CE7CD3C38144FCB8DC9F5E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctred.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctred.c"; path = "jidctred.c"; sourceTree = SOURCE_ROOT; };
+2328AB6B65494A55BD2362F8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemansi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jmemansi.c"; path = "jmemansi.c"; sourceTree = SOURCE_ROOT; };
+F0976357D6F94511B4E99D9F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jmemmgr.c"; path = "jmemmgr.c"; sourceTree = SOURCE_ROOT; };
+DC7146EB0B154F4C98D933C7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jquant1.c"; path = "jquant1.c"; sourceTree = SOURCE_ROOT; };
+8BC006300B9945C5AEA6D919 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jquant2.c"; path = "jquant2.c"; sourceTree = SOURCE_ROOT; };
+9F4DDC359D504D72966D4171 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jutils.c"; path = "jutils.c"; sourceTree = SOURCE_ROOT; };
+9CCA730FC1D94A5982FC0957 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "transupp.c"; path = "transupp.c"; sourceTree = SOURCE_ROOT; };
+D65531220AB74B639A4BDF29 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jchuff.h"; path = "jchuff.h"; sourceTree = SOURCE_ROOT; };
+5B0E4BBFDBA141908E0714E9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jconfig.h"; path = "jconfig.h"; sourceTree = SOURCE_ROOT; };
+70D4A5E0EB1D4C019D2C2792 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jdct.h"; path = "jdct.h"; sourceTree = SOURCE_ROOT; };
+F14CCDA2071C4B70AEBFA6F7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jdhuff.h"; path = "jdhuff.h"; sourceTree = SOURCE_ROOT; };
+6C5B325CB38149A6A9401144 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jerror.h"; path = "jerror.h"; sourceTree = SOURCE_ROOT; };
+9DBC51B1AAF948E2B42D9665 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jinclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jinclude.h"; path = "jinclude.h"; sourceTree = SOURCE_ROOT; };
+CE6D0625286240398CE831A4 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jmemsys.h"; path = "jmemsys.h"; sourceTree = SOURCE_ROOT; };
+041955D3D5EF4AA283BEE2F5 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jmorecfg.h"; path = "jmorecfg.h"; sourceTree = SOURCE_ROOT; };
+8100699BD5BC4576946DFD3C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpegint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jpegint.h"; path = "jpegint.h"; sourceTree = SOURCE_ROOT; };
+BD7AE56C40824047A2CD398B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jpeglib.h"; path = "jpeglib.h"; sourceTree = SOURCE_ROOT; };
+8FC185AFF53C4CA9A20595E6 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "jversion.h"; path = "jversion.h"; sourceTree = SOURCE_ROOT; };
+ED655E82D03A4D86A50BF9AB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "transupp.h"; path = "transupp.h"; sourceTree = SOURCE_ROOT; };
+7151CB06E43143139B60508D /* libjpeg */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "liblibjpeg.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              81D40919F3114910959E05D6  = {
+                     isa = PBXGroup;
+                     children = (
+                            B18EC117CADB4AA5B41E8146 /* Sources */,
+                            D0AB5D74D51E42829D1C402D /* Resources */,
+                            02464CCC3A7A4778B8744EED /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              B18EC117CADB4AA5B41E8146 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3B526FADDF4E492CACF1F2B3 /* ALL_BUILD */,
+                            10C9CEA5D6914A1B865F6E0B /* ZERO_CHECK */,
+                            009F8E866E2C44BEBB157FA1 /* 3rdparty */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              D0AB5D74D51E42829D1C402D /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              3B526FADDF4E492CACF1F2B3 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6D83FB53A33B459492888263 /* CMake Rules */,
+                            9433FFBB3F634775A529733C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              6D83FB53A33B459492888263 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              10C9CEA5D6914A1B865F6E0B /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AD3F082DEBFE4A8B95FFBDAB /* CMake Rules */,
+                            9433FFBB3F634775A529733C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              AD3F082DEBFE4A8B95FFBDAB /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              009F8E866E2C44BEBB157FA1 /* 3rdparty */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DA71D2921F8B4C83810CD75F /* libjpeg */,
+                     );
+                     name = 3rdparty;
+                     sourceTree = "<group>";
+              };
+              DA71D2921F8B4C83810CD75F /* libjpeg */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D4C9FE4032EB42C4A128E5EB /* Source Files */,
+                            C21B190BDC6B4659BC3B8B02 /* Header Files */,
+                            9433FFBB3F634775A529733C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/CMakeLists.txt */,
+                     );
+                     name = libjpeg;
+                     sourceTree = "<group>";
+              };
+              D4C9FE4032EB42C4A128E5EB /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            69FA8EEBD11F4A05A63E2FAE /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapimin.c */,
+                            703F21B8C3094A989C2D7701 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapistd.c */,
+                            66F89667160945D6A4A84FAA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccoefct.c */,
+                            DFEA3BDC988A45BCAFDC4B63 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccolor.c */,
+                            09EFEE2E5D2B4491BBF19D28 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcdctmgr.c */,
+                            9A9D234A091E453193B1793F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.c */,
+                            E30818337C784CA3AB066DC1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcinit.c */,
+                            21CDAB3F8C034264AC10B05B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmainct.c */,
+                            B89C97BD65194961B36C10EC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmarker.c */,
+                            9183F486072F49C0A0AE1624 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmaster.c */,
+                            D57C26B73A3645AF98241447 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcomapi.c */,
+                            083A27BB5CD641029AAC866C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcparam.c */,
+                            D3F075539B8F4A3FAF45028A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcphuff.c */,
+                            C811C557820148AAA60EE5CD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcprepct.c */,
+                            6C0C768445C444D9B81C4A21 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcsample.c */,
+                            65049A4F891644E0A2629EDE /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jctrans.c */,
+                            8B31482AA31E42D8B5744D78 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapimin.c */,
+                            09A23E0D1C7E4D2DA9CE11E0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapistd.c */,
+                            F58B7426F223498AA59274D1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatadst.c */,
+                            DC9B9692F9C248D89D283655 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatasrc.c */,
+                            492A39D39DFF4FE4A026AF10 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcoefct.c */,
+                            9EFAD2344885414680E83D3E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcolor.c */,
+                            45905D1EBF044A3FB1603349 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jddctmgr.c */,
+                            023E5D6BF90F41AA833644AD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.c */,
+                            CC3ACAF1F8F147EC96091E5D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdinput.c */,
+                            7A3E9E9DB5D5485C9CD713E7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmainct.c */,
+                            6BB265AE09324EADB368CD1B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmarker.c */,
+                            1499FA81E1A6473CBD05F549 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmaster.c */,
+                            C8123A78F7C34D988676664A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmerge.c */,
+                            E4BDD5A36D4240C4B75E6BDB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdphuff.c */,
+                            CA72545D93594D4F8AA21BBA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdpostct.c */,
+                            690C26BDC1F741D69D4108E0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdsample.c */,
+                            22FAEC8982B642CEAA29C342 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdtrans.c */,
+                            E1E80E3320D444FB85CA9588 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.c */,
+                            E54E9BBAA5AE4624A2A12C1F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctflt.c */,
+                            F2E915255FBE4185827010F1 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctfst.c */,
+                            F8D5CB5278BA441F8C93D52C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctint.c */,
+                            5F172C47FDE34F23A5B592D5 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctflt.c */,
+                            6E0E1616D3E9468CAC231E29 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctfst.c */,
+                            68AC20D56B51491FB4AFCBFB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctint.c */,
+                            F8CE7CD3C38144FCB8DC9F5E /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctred.c */,
+                            2328AB6B65494A55BD2362F8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemansi.c */,
+                            F0976357D6F94511B4E99D9F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemmgr.c */,
+                            DC7146EB0B154F4C98D933C7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant1.c */,
+                            8BC006300B9945C5AEA6D919 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant2.c */,
+                            9F4DDC359D504D72966D4171 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jutils.c */,
+                            9CCA730FC1D94A5982FC0957 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              C21B190BDC6B4659BC3B8B02 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D65531220AB74B639A4BDF29 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.h */,
+                            5B0E4BBFDBA141908E0714E9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jconfig.h */,
+                            70D4A5E0EB1D4C019D2C2792 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdct.h */,
+                            F14CCDA2071C4B70AEBFA6F7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.h */,
+                            6C5B325CB38149A6A9401144 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.h */,
+                            9DBC51B1AAF948E2B42D9665 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jinclude.h */,
+                            CE6D0625286240398CE831A4 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemsys.h */,
+                            041955D3D5EF4AA283BEE2F5 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmorecfg.h */,
+                            8100699BD5BC4576946DFD3C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpegint.h */,
+                            BD7AE56C40824047A2CD398B /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jpeglib.h */,
+                            8FC185AFF53C4CA9A20595E6 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jversion.h */,
+                            ED655E82D03A4D86A50BF9AB /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              02464CCC3A7A4778B8744EED /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7151CB06E43143139B60508D /* libjpeg */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              0B851C06F3EE4B88898A3BDE /* libjpeg */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = D8B228BA95764815AA8C32F1 /* Build configuration list for PBXNativeTarget "libjpeg" */;
+                     buildPhases = (
+                            2BA741783A074B328C295252 /* Sources */,
+                            0D713B1814C9465893EF1CB8 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            888EA113099D4F34AB1F908F /* PBXTargetDependency */,
+                     );
+                     name = libjpeg;
+                     productName = libjpeg;
+                     productReference = 7151CB06E43143139B60508D /* libjpeg */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              79CAD3F302034F99BD0DED95 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = E6583A1B9B8D4F539B192596 /* Build configuration list for PBXProject  "libjpeg" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            E4991B88E7294F55A8A5D1CC /* Debug */,
+                            13BF507925574762A4F3227D /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 81D40919F3114910959E05D6;
+                     projectDirPath = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg";
+                     projectRoot = "";
+                     targets = (
+                            4E0BC4EC07624D398055ED0C /* ALL_BUILD */,
+                            98A0C14B9C4749CBA5B9474F /* ZERO_CHECK */,
+                            B7078E9D597547AF8FC29DEB /* install */,
+                            0B851C06F3EE4B88898A3BDE /* libjpeg */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              7D42DB5630674293A959EEDB /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              AD6E429A8FD44CD691D466AE /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              2DD7F3227AE34CAA8332CB04 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              08CF631E95D74EF98EF6D018 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              3D640C9A711F41909C1AA5E4 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5F71A7CE3939469C92661A0C /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              0D713B1814C9465893EF1CB8 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg -f /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/CMakeScripts/libjpeg_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              2BA741783A074B328C295252 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            F1DE60978BD043579714D06F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapimin.c */,
+                            D257532B39C848129D6CB778 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcapistd.c */,
+                            455030F4F83349DE8F931036 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccoefct.c */,
+                            0EBDE23C04244A36B10957EF /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jccolor.c */,
+                            2B3D16DF23E3438B995305F9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcdctmgr.c */,
+                            7622130750954A5FAF4B540A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jchuff.c */,
+                            EA18EF1ABDB048EEBFCB01AC /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcinit.c */,
+                            5330EE8D0792481DBD1CCD99 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmainct.c */,
+                            DBA6074E05DC4D0C99682577 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmarker.c */,
+                            13539189591342F69CAAE529 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcmaster.c */,
+                            1DA08CD462864A72898AEDF9 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcomapi.c */,
+                            42E67FECDB884DC9AFB036B6 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcparam.c */,
+                            24570AC4E83C45D8B00D9C62 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcphuff.c */,
+                            90F0B78753A94FE79067950C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcprepct.c */,
+                            E6B91DC03A9446919BD5D93F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jcsample.c */,
+                            A09C8893FFF84CACB5B41547 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jctrans.c */,
+                            93796C1A568F400883CEE78A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapimin.c */,
+                            E19AAE7AB0464F5B9F65405A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdapistd.c */,
+                            E08E535313004F11B5958571 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatadst.c */,
+                            D83E156EC0764FD48BB7B152 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdatasrc.c */,
+                            2970A68D14D048729ADC291F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcoefct.c */,
+                            5B9E8B8E2FA046FBBD4E21CF /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdcolor.c */,
+                            2CF07C69D14C4A8FB74CDCC8 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jddctmgr.c */,
+                            102ECB1074A54AF3922C9860 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdhuff.c */,
+                            6F3552503324412EB21D85BA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdinput.c */,
+                            8DA71CCA1E7A4BA5B3FD1EC7 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmainct.c */,
+                            930A9FD931AB4EEBBD1201F2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmarker.c */,
+                            7FE4FF6CC59A4E18A5F4A72C /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmaster.c */,
+                            B9338E94414B4CA5A74AB17A /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdmerge.c */,
+                            AAE506F7B34F451D836455B0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdphuff.c */,
+                            B21BFAC3109E4485BD6DADFA /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdpostct.c */,
+                            A52C33651DF644579913E6F2 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdsample.c */,
+                            ACF74A21F6F146E3A9F30CC0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jdtrans.c */,
+                            139CAED4E3254F9EA92CDE86 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jerror.c */,
+                            B086DCC883BD42E7AC694978 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctflt.c */,
+                            8F9708E6576241FA9CFF3C5D /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctfst.c */,
+                            AE70AF21D13042C99D67F0FD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jfdctint.c */,
+                            42FC82CDA7694D389BC3AA0F /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctflt.c */,
+                            77E32475854348B9B02CC976 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctfst.c */,
+                            7BB1F529B3EF434C974F1A47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctint.c */,
+                            1BD7FA65A545492AB8288E47 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jidctred.c */,
+                            D75138631C1E4A5D99AC22B0 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemansi.c */,
+                            DFE8A290104148F595306587 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jmemmgr.c */,
+                            5ADE5B475A674861A559A421 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant1.c */,
+                            3DD7AEFBD0CD4ECCB3B5C976 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jquant2.c */,
+                            1FAAC47C2442457DA43317DD /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/jutils.c */,
+                            3B77399C97D7444EB8396238 /* /Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg/transupp.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              2A6A4518EBA94F43A363347C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0B851C06F3EE4B88898A3BDE /* libjpeg */;
+                     targetProxy = 5427D0AD0E6E4FF5823A8433 /* PBXContainerItemProxy */;
+              };
+              888EA113099D4F34AB1F908F /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 98A0C14B9C4749CBA5B9474F /* ZERO_CHECK */;
+                     targetProxy = 3560305E7A4242798785DD91 /* PBXContainerItemProxy */;
+              };
+              868BE972AD7D47F0A70B418D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 4E0BC4EC07624D398055ED0C /* ALL_BUILD */;
+                     targetProxy = EF4AD9631E2742DF9BB50817 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              17B9B2EEDFC14D23AB5EAB15 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/build";
+                     };
+                     name = Debug;
+              };
+              97498E7D3A384DAD89CBC7D2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg/build";
+                     };
+                     name = Release;
+              };
+              36C5F98BA4004C7EBDE582E7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B73F84A674824054A9B27B11 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              949A1C6D278E466CB91F924D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              12F3782BBBD14D5580637AA7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              CCC020468C16439AB5B8742B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              DEBD7A280F6F4C4F8C382FEA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C548CF7B3D6A4D28B2F2BAD4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -Wno-shadow -Wno-unused -Wno-unused-parameter         -DDEBUG -D_DEBUG         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = libjpeg;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              02AF59F45DD44AF2ACDC9971 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/opencv-2.4.6.1/3rdparty/libjpeg", "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-cast-align -Wno-shadow -Wno-unused -Wno-unused-parameter     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = libjpeg;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/IanZhang/Documents/CS183/CS183_Sketch2Web/ios/build/iPhoneSimulator-i386/3rdparty/libjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              E6583A1B9B8D4F539B192596 /* Build configuration list for PBXProject  "libjpeg" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            17B9B2EEDFC14D23AB5EAB15 /* Debug */,
+                            97498E7D3A384DAD89CBC7D2 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              287B2BCEEF0246CCB5F1C6C5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            36C5F98BA4004C7EBDE582E7 /* Debug */,
+                            B73F84A674824054A9B27B11 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              88CEE9482A9C4B41A353AEE7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            949A1C6D278E466CB91F924D /* Debug */,
+                            12F3782BBBD14D5580637AA7 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C45119E25DD842B185C6FF53 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CCC020468C16439AB5B8742B /* Debug */,
+                            DEBD7A280F6F4C4F8C382FEA /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D8B228BA95764815AA8C32F1 /* Build configuration list for PBXNativeTarget "libjpeg" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C548CF7B3D6A4D28B2F2BAD4 /* Debug */,
+                            02AF59F45DD44AF2ACDC9971 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 79CAD3F302034F99BD0DED95;
+}
