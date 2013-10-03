@@ -12,7 +12,7 @@ Please install Python 2.7.5 first. After installation, open your terminal, type 
  
 If your path is different, you may need to reconfigure your XCode.
 
-To install OpenCV, check out: https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows
+To install OpenCV, check out: http://compphotography.wordpress.com/2013/04/08/macos-python-install-macports/
 
 Here is some useful tutorials about OpenCV using Python language:  https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html
 
