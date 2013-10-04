@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{b8b44aa1-59ff-4bd0-9737-2495c0b30e8e}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>PerspectiveCorrection\QuadCorrector.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="PerspectiveCorrection\QuadCorrector.py" />
     <Compile Include="PerspectiveCorrection\__init__.py" />
     <Compile Include="Sketch2Web.py" />
   </ItemGroup>
