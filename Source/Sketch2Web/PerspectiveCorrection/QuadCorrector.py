@@ -63,6 +63,9 @@ class QuadCorrector(object):
             return [-1, -1]
         pass;
 
+    ##################################
+    ### This is not right!!!!!!
+    ##################################
     def classifyCorners(self, cornerPoints, center):
         """Sort each point, and get the calculated topLeft/ topRight/ bottomLeft/ bottomRight point"""
         topLeft = numpy.array([[0,0]]); topRight = numpy.array([[0,0]]);
@@ -109,10 +112,14 @@ class QuadCorrector(object):
         grayImg = cv2.cvtColor(self.mInputImg, cv2.COLOR_BGR2GRAY)
         blurImg = cv2.blur(grayImg, (3,3))
         edgesImg = cv2.Canny(blurImg, 100, 100, 3)
-        lines = cv2.HoughLines( edgesImg, 1, numpy.pi/180, 130 )
-        vec4lines = []
+        #lines = cv2.HoughLines( edgesImg, 1, numpy.pi/180, 130 )
+        # I changed cv2.HoughLines to cv2.HoughLinesP, That seems to be better.
+        lines = cv2.HoughLinesP( edgesImg, 1, numpy.pi/180, 80, 30, 20 )
+        vec4lines = lines[0]         # We need this only when using cv2.HoughLinesP()
+
+        """
         # Present the lines in a 4-element tuple
-        for rho,theta in lines[0]:
+        for rho,theta in vec4lines:
             a = numpy.cos(theta)
             b = numpy.sin(theta)
             x0 = a*rho
@@ -121,11 +128,20 @@ class QuadCorrector(object):
             y1 = int(y0 + 1000*(a))
             x2 = int(x0 - 1000*(-b))
             y2 = int(y0 - 1000*(a))
-            vec4lines.append( [x1, y1, x2, y2] )
-            #cv2.line( self.mInputImg, (x1, y1), (x2,y2), (255, 255, 255), 1 )
+            #vec4lines.append( [x1, y1, x2, y2] )
+            cv2.line( self.mInputImg, (x1, y1), (x2,y2), (255, 255, 255), 1 )
+        # sortedLines = self.sortLinesBySlop( vec4lines );
+        """
+        
+        for line in vec4lines:
+            print line
+            x1 = line[0];       y1 = line[1];
+            x2 = line[2];       y2 = line[3];
+            cv2.line( self.mInputImg, (x1, y1), (x2,y2), (255, 255, 255), 2 )
 
-        #sortedLines = self.sortLinesBySlop( vec4lines );
 
+            
+        
         # Get corners of the rectangle shape
         corners = None
         for i in range( 0, len(vec4lines) ):
@@ -137,7 +153,7 @@ class QuadCorrector(object):
                     else:
                         corners = numpy.append( corners, [intersectPoint], axis=0 )
                     pass
-                #cv2.circle( self.mInputImg, (intersectPoint[0], intersectPoint[1]), 3, ( 255, 0, 0 ), 3)
+                cv2.circle( self.mInputImg, (intersectPoint[0], intersectPoint[1]), 3, ( 0, 255, 255 ), 3)
                 pass
             pass
         self.showInput()
@@ -187,14 +203,16 @@ class QuadCorrector(object):
 
 
 x = numpy.array([[1,2]])
-x= numpy.append( x, [[2,3]], axis=0 )
+x = numpy.append( x, [[2,3]], axis=0 )
 #print x
 #print numpy.append([[1, 2, 3]], [[7, 8, 9]], axis=0)
 
 corrector = QuadCorrector()
 corrector.setOutputSize( (600, 800) )
-corrector.getOverViewImg(".\Resources\\best.jpg")
-#corrector.getOverViewImg(".\Resources\\Poker.jpg")
+# Use this in Visiual Studio
+#corrector.getOverViewImg(".\Resources\\best.jpg")
+# If you are using other IDE, you probably want to change the path of the image
+corrector.getOverViewImg("C:\\Users\\ianzh_000\\Documents\\GitHub\\CS183_Sketch2Web\\Source\\Sketch2Web\\Resources\\tip3.jpg")
 
 
 
