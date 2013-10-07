@@ -3,6 +3,8 @@ CS183_Sketch2Web
 
 Project for CS183( Computer Vision )
 
+<h2>For those who uses MacOS:<h2> 
+
 To install everything, check out: http://compphotography.wordpress.com/2013/04/08/macos-python-install-macports/
 
 After installation, open your terminal, type "which python". my machine returns:
@@ -20,3 +22,8 @@ Here is some useful tutorials about OpenCV using Python language:  https://openc
 I created a project using XCode, and I thing everything is set.
 
 Now, LET'S ROCK!
+
+<h2>For those who uses Windows:<h2> 
+
+CS1 class has a very complete tutorial for installing python in eclipse:
+http://www.cs.dartmouth.edu/~cs1/windows_installation/windows_installation.html
