@@ -25,3 +25,7 @@ Now, LET'S ROCK!
 <h4>For those who uses Windows:</h4> 
 CS1 class has a very complete tutorial for installing python in eclipse:
 http://www.cs.dartmouth.edu/~cs1/windows_installation/windows_installation.html
+
+
+<h4>If you wanna know how to collaborate in this project:</h4>
+http://net.tutsplus.com/tutorials/tools-and-tips/how-to-collaborate-on-github/
