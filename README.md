@@ -28,4 +28,9 @@ http://www.cs.dartmouth.edu/~cs1/windows_installation/windows_installation.html
 
 
 <h4>If you wanna know how to collaborate in this project:</h4>
+
 http://net.tutsplus.com/tutorials/tools-and-tips/how-to-collaborate-on-github/
+
+http://mustlovecode.com/blog/2013/03/06/the-basics-of-collaborating-on-github/
+
+https://help.github.com/categories/63/articles
