@@ -6,6 +6,7 @@ import sys
 import urllib2
 import cv2
 import numpy
+from MouseEvent import MouseSelection
 #import copy
 
 class QuadCorrector(object):
@@ -54,6 +55,9 @@ class QuadCorrector(object):
         x3 = line2[0];       y3 = line2[1];
         x4 = line2[2];       y4 = line2[3];
 
+        if numpy.abs((y2-y1)/(x2-x1) - (y4-y3)/(x4-x3)) <= 1:
+            return None;
+
         d = ((x1 - x2) * (y3 - y4)) - ((y1 - y2) * (x3 - x4))
         if d != 0:
             x = ((x1 * y2 - y1 * x2) * (x3 - x4) - (x1 - x2) * (x3 * y4 - y3 * x4)) / d
@@ -63,8 +67,17 @@ class QuadCorrector(object):
             return [-1, -1]
         pass;
 
+    def isCorner( self, corners, intersectPoint ):
+        for point in corners:
+            lensqr = (intersectPoint[0]-point[0])*(intersectPoint[0]-point[0]) + (intersectPoint[1]-point[1])*(intersectPoint[1]-point[1]);
+            if lensqr < 64:
+                return False;
+            pass
+        return True;
+
+
     ##################################
-    ### This is not right!!!!!!
+    ### 
     ##################################
     def classifyCorners(self, cornerPoints, center):
         """Sort each point, and get the calculated topLeft/ topRight/ bottomLeft/ bottomRight point"""
@@ -109,9 +122,12 @@ class QuadCorrector(object):
 
     def getOverViewImg( self, imageFilename ):
         self.mInputImg = cv2.imread( imageFilename )
+        imgCopy = self.mInputImg.copy()                                                     # Used in the last step
         grayImg = cv2.cvtColor(self.mInputImg, cv2.COLOR_BGR2GRAY)
-        blurImg = cv2.blur(grayImg, (3,3))
-        edgesImg = cv2.Canny(blurImg, 100, 100, 3)
+        blurImg = cv2.blur(grayImg, (9,9))
+        im_bw = cv2.threshold(blurImg, 170, 255, cv2.THRESH_BINARY)[1]
+        edgesImg = cv2.Canny(im_bw, 100, 100, 3)
+        self.__showImg(edgesImg)
         #lines = cv2.HoughLines( edgesImg, 1, numpy.pi/180, 130 )
         # I changed cv2.HoughLines to cv2.HoughLinesP, That seems to be better.
         lines = cv2.HoughLinesP( edgesImg, 1, numpy.pi/180, 80, 30, 20 )
@@ -134,7 +150,6 @@ class QuadCorrector(object):
         """
         
         for line in vec4lines:
-            print line
             x1 = line[0];       y1 = line[1];
             x2 = line[2];       y2 = line[3];
             cv2.line( self.mInputImg, (x1, y1), (x2,y2), (255, 255, 255), 2 )
@@ -146,17 +161,18 @@ class QuadCorrector(object):
         corners = None
         for i in range( 0, len(vec4lines) ):
             for j in range( i+1, len(vec4lines) ):
-                intersectPoint = self.computeIntersection( vec4lines[i], vec4lines[j] )
-                if( intersectPoint[0] >= 0 and intersectPoint[1] >= 0 ):
-                    if( corners is None ):
-                        corners = numpy.array([ [ intersectPoint[0], intersectPoint[1]] ])
-                    else:
-                        corners = numpy.append( corners, [intersectPoint], axis=0 )
+                intersectPoint = self.computeIntersection( vec4lines[i], vec4lines[j] )  ############################################## Change this line can help a lot!
+                if intersectPoint is not None:
+                    if( intersectPoint[0] >= 0 and intersectPoint[1] >= 0 ):
+                       if( corners is None ):
+                            corners = numpy.array([ [ intersectPoint[0], intersectPoint[1]] ])
+                            cv2.circle( self.mInputImg, (intersectPoint[0], intersectPoint[1]), 3, ( 255, 255, 255 ), 3)
+                       elif self.isCorner(corners, intersectPoint):
+                            corners = numpy.append( corners, [intersectPoint], axis=0 )
+                            cv2.circle( self.mInputImg, (intersectPoint[0], intersectPoint[1]), 3, ( 255, 255, 255 ), 3)
                     pass
-                cv2.circle( self.mInputImg, (intersectPoint[0], intersectPoint[1]), 3, ( 0, 255, 255 ), 3)
-                pass
             pass
-        self.showInput()
+        #self.showInput()
 
 
 
@@ -171,33 +187,38 @@ class QuadCorrector(object):
             center += corner
 
         center /= len(corners)
+        # Draw center point 
+        cv2.circle( self.mInputImg, (center[0], center[1]), 3, ( 255, 255, 255 ), 3 )
+        self.showInput()
+
         # determin each corner point's position
         quadCornerPoints = self.classifyCorners( corners, center )
         
-        imgCopy = self.mInputImg.copy()
+        
         # Draw Lines based on the corner points we got
         for i in range( 0, len( vec4lines ) ):
             line = vec4lines[i]
             cv2.line( imgCopy, (line[0], line[1]), (line[2], line[3]), (0, 255, 0), 1 )
-        #self.__showImg( imgCopy )
+        self.__showImg( imgCopy )
 
         # Draw corner points
-        cv2.circle( imgCopy, (quadCornerPoints[0][0], quadCornerPoints[0][1]), 3, ( 255, 0, 0 ), 3)
-        cv2.circle( imgCopy, (quadCornerPoints[1][0], quadCornerPoints[1][1]), 3, ( 0, 255, 0 ), 3)
-        cv2.circle( imgCopy, (quadCornerPoints[2][0], quadCornerPoints[2][1]), 3, ( 0, 0, 255 ), 3)
-        cv2.circle( imgCopy, (quadCornerPoints[3][0], quadCornerPoints[3][1]), 3, ( 255, 255, 255 ), 3)
+        cv2.circle( self.mInputImg, (quadCornerPoints[0][0], quadCornerPoints[0][1]), 3, ( 255, 0, 0 ), 3)
+        cv2.circle( self.mInputImg, (quadCornerPoints[1][0], quadCornerPoints[1][1]), 3, ( 0, 255, 0 ), 3)
+        cv2.circle( self.mInputImg, (quadCornerPoints[2][0], quadCornerPoints[2][1]), 3, ( 0, 0, 255 ), 3)
+        cv2.circle( self.mInputImg, (quadCornerPoints[3][0], quadCornerPoints[3][1]), 3, ( 255, 0, 255 ), 3)
 
-        # Draw mass center 
-        cv2.circle( imgCopy, (center[0], center[1]), 3, ( 255, 255, 0 ), 2 )
-        self.__showImg( imgCopy )
+        mouseSelection = MouseSelection( self.mInputImg, quadCornerPoints )
+        mouseSelection.callback();
+        #self.__showImg( imgCopy )
 
         imgCols = self.mOutputImgSize[0]
         imgRows = self.mOutputImgSize[1] 
         dstQuadPoints = numpy.float32( [[0,0], [imgCols,0], [0, imgRows], [imgCols, imgRows]] )
         transMtrix = cv2.getPerspectiveTransform( quadCornerPoints, dstQuadPoints )
-        self.mOutputImg = cv2.warpPerspective( self.mInputImg, transMtrix, (imgCols,imgRows))
+        self.mOutputImg = cv2.warpPerspective( imgCopy, transMtrix, (imgCols,imgRows))
         cv2.imshow( "Input", self.mInputImg );
         cv2.imshow( "Output", self.mOutputImg );
+        cv2.imwrite( "outputImg.jpg", self.mOutputImg );
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
@@ -208,11 +229,11 @@ x = numpy.append( x, [[2,3]], axis=0 )
 #print numpy.append([[1, 2, 3]], [[7, 8, 9]], axis=0)
 
 corrector = QuadCorrector()
-corrector.setOutputSize( (600, 800) )
+corrector.setOutputSize( (210*4, 297*4) )
 # Use this in Visiual Studio
 #corrector.getOverViewImg(".\Resources\\best.jpg")
 # If you are using other IDE, you probably want to change the path of the image
-corrector.getOverViewImg("C:\\Users\\ianzh_000\\Documents\\GitHub\\CS183_Sketch2Web\\Source\\Sketch2Web\\Resources\\tip3.jpg")
+corrector.getOverViewImg("C:\\Users\\ianzh_000\\Documents\\GitHub\\CS183_Sketch2Web\\Source\\Sketch2Web\\Resources\\tip2.jpg")
 
 
 

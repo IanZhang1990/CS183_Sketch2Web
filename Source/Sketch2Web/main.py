@@ -1,5 +1,5 @@
 #Test if your environment is setup
-
+import scipy;
 import numpy
 #import scipy
 import cv2

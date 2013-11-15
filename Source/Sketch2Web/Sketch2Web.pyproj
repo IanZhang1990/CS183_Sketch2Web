@@ -23,11 +23,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="PerspectiveCorrection\MouseEvent.py" />
     <Compile Include="PerspectiveCorrection\QuadCorrector.py" />
     <Compile Include="PerspectiveCorrection\__init__.py" />
+    <Compile Include="ShapeDetection\ShapeDetector.py" />
+    <Compile Include="ShapeDetection\SIFT_Test.py" />
     <Compile Include="Sketch2Web.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ShapeDetection\" />
     <Folder Include="PerspectiveCorrection\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

@@ -1,0 +1,5 @@
+C:\Users\ianzh_000\Documents\GitHub\CS183_Sketch2Web\Source\MinHash\bin\Debug\MinHash.exe
+C:\Users\ianzh_000\Documents\GitHub\CS183_Sketch2Web\Source\MinHash\bin\Debug\MinHash.pdb
+C:\Users\ianzh_000\Documents\GitHub\CS183_Sketch2Web\Source\MinHash\obj\x86\Debug\MinHash.csprojResolveAssemblyReference.cache
+C:\Users\ianzh_000\Documents\GitHub\CS183_Sketch2Web\Source\MinHash\obj\x86\Debug\MinHash.exe
+C:\Users\ianzh_000\Documents\GitHub\CS183_Sketch2Web\Source\MinHash\obj\x86\Debug\MinHash.pdb
